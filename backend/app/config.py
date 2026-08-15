@@ -10,6 +10,7 @@ class Settings:
     LLM_MODEL: str = os.getenv("LLM_MODEL", "qwen-plus")
 
     DATABASE_URL: str = os.getenv("DATABASE_URL", "sqlite:///./bloom.db")
+    MATERIALS_DIR: str = os.getenv("MATERIALS_DIR", r"C:\Users\30374\Desktop\历史地理")
 
     CORS_ORIGINS: list[str] = [
         o.strip() for o in os.getenv("CORS_ORIGINS", "http://localhost:5173,http://localhost:3000").split(",") if o.strip()

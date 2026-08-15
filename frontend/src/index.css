@@ -26,6 +26,105 @@ body {
   color: var(--text-primary);
 }
 
+/* 历史地图工作台：冷灰青纸面、地图墨线与朱砂批注。 */
+.atlas-shell {
+  --atlas-paper: #edf2ef;
+  --atlas-ink: #17292c;
+  --atlas-blue: #315d68;
+  --atlas-river: #7da8aa;
+  --atlas-cinnabar: #a14332;
+  --atlas-line: #bdcbc4;
+  min-height: 100dvh;
+  color: var(--atlas-ink);
+  background-color: var(--atlas-paper);
+  background-image:
+    linear-gradient(rgba(49, 93, 104, 0.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(49, 93, 104, 0.055) 1px, transparent 1px);
+  background-size: 32px 32px;
+  font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+}
+.atlas-header { min-height: 76px; padding: 0 5vw; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--atlas-line); background: rgba(237,242,239,.9); backdrop-filter: blur(12px); position: sticky; top: 0; z-index: 20; }
+.atlas-brand { display: flex; align-items: center; gap: 13px; color: inherit; text-decoration: none; }
+.atlas-brand strong { display: block; font-family: STKaiti, KaiTi, serif; font-size: 19px; letter-spacing: .08em; }
+.atlas-brand small { display: block; color: var(--atlas-blue); font: 10px/1.5 ui-monospace, monospace; letter-spacing: .2em; }
+.atlas-seal { width: 42px; height: 42px; display: grid; place-items: center; color: #fff; background: var(--atlas-cinnabar); font: 16px STKaiti, KaiTi, serif; writing-mode: vertical-rl; letter-spacing: .08em; box-shadow: inset 0 0 0 3px rgba(255,255,255,.22); }
+.atlas-header nav { display: flex; gap: 8px; }
+.atlas-header nav button { padding: 9px 12px; border: 0; background: transparent; color: var(--atlas-blue); font-size: 13px; cursor: pointer; }
+.atlas-header nav button:hover { background: rgba(49,93,104,.08); }
+.atlas-main { width: min(1180px, 90vw); margin: 0 auto; padding: 54px 0 36px; }
+.atlas-hero { min-height: 340px; display: grid; grid-template-columns: minmax(0,1fr) 220px; align-items: center; position: relative; border-bottom: 1px solid var(--atlas-line); }
+.atlas-coordinate { position: absolute; top: 0; right: 0; color: var(--atlas-blue); font: 10px ui-monospace, monospace; letter-spacing: .16em; }
+.atlas-kicker { margin: 0 0 10px; color: var(--atlas-cinnabar); font: 700 11px ui-monospace, monospace; letter-spacing: .16em; text-transform: uppercase; }
+.atlas-hero h1 { max-width: 780px; margin: 0; font: 500 clamp(40px,5.3vw,72px)/1.12 STKaiti, KaiTi, "Noto Serif SC", serif; letter-spacing: -.035em; }
+.atlas-lead { max-width: 570px; margin: 22px 0 0; color: #4b6264; font: 15px/1.8 "Microsoft YaHei", sans-serif; }
+.atlas-actions { display: flex; flex-wrap: wrap; gap: 11px; margin-top: 28px; }
+.atlas-primary, .atlas-secondary { min-height: 44px; display: inline-flex; align-items: center; justify-content: center; padding: 0 19px; border: 1px solid var(--atlas-blue); font-size: 13px; text-decoration: none; cursor: pointer; }
+.atlas-primary { color: #fff; background: var(--atlas-blue); }
+.atlas-primary:hover { background: #244b54; }
+.atlas-primary:disabled { opacity: .6; cursor: wait; }
+.atlas-secondary { color: var(--atlas-blue); background: rgba(255,255,255,.26); }
+.atlas-secondary:hover { background: rgba(255,255,255,.65); }
+.atlas-countdown { width: 186px; height: 186px; margin-left: auto; display: grid; place-content: center; text-align: center; position: relative; }
+.atlas-countdown__ring { position: absolute; inset: 0; border: 1px solid var(--atlas-river); border-radius: 50%; box-shadow: 0 0 0 13px rgba(125,168,170,.09), inset 0 0 0 6px var(--atlas-paper), inset 0 0 0 7px rgba(49,93,104,.18); }
+.atlas-countdown::before, .atlas-countdown::after { content: ""; position: absolute; background: var(--atlas-river); opacity: .55; }
+.atlas-countdown::before { width: 218px; height: 1px; left: -16px; top: 50%; }
+.atlas-countdown::after { width: 1px; height: 218px; top: -16px; left: 50%; }
+.atlas-countdown strong, .atlas-countdown span, .atlas-countdown small { position: relative; z-index: 1; }
+.atlas-countdown strong { font: 500 57px/1 ui-monospace, monospace; }
+.atlas-countdown span { color: var(--atlas-cinnabar); font: 15px STKaiti, KaiTi, serif; }
+.atlas-countdown small { margin-top: 8px; color: #607577; font-size: 10px; }
+.atlas-section { padding: 42px 0; border-bottom: 1px solid var(--atlas-line); }
+.atlas-section__heading { display: flex; justify-content: space-between; align-items: end; gap: 30px; margin-bottom: 22px; }
+.atlas-section__heading h2 { margin: 0; font: 500 28px/1.2 STKaiti, KaiTi, serif; }
+.atlas-section__heading > p { max-width: 470px; margin: 0; color: #607577; font-size: 12px; line-height: 1.7; text-align: right; }
+.atlas-section__heading.compact { align-items: center; margin-bottom: 18px; }
+.atlas-section__heading.compact h2 { font-size: 23px; }
+.atlas-tracks { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.atlas-track { min-height: 150px; padding: 24px; display: grid; grid-template-columns: 62px 1fr; gap: 22px; border: 1px solid var(--atlas-line); background: rgba(255,255,255,.35); }
+.atlas-track__number { border-right: 1px solid var(--atlas-line); color: var(--atlas-blue); font: 18px/1 STKaiti, KaiTi, serif; writing-mode: vertical-rl; letter-spacing: .18em; }
+.atlas-track h3 { margin: 0 0 10px; font: 500 23px STKaiti, KaiTi, serif; }
+.atlas-track p:last-child { margin: 0; color: #607577; font-size: 12px; line-height: 1.7; }
+.atlas-grid { display: grid; grid-template-columns: .8fr 1.2fr; gap: 14px; padding: 42px 0; }
+.atlas-panel { border: 1px solid var(--atlas-line); background: rgba(255,255,255,.5); padding: 25px; }
+.atlas-date { color: var(--atlas-blue); font: 10px ui-monospace, monospace; letter-spacing: .12em; }
+.atlas-today ol { margin: 0; padding: 0; list-style: none; }
+.atlas-today li { display: grid; grid-template-columns: 36px 1fr; align-items: center; border-top: 1px solid rgba(189,203,196,.75); }
+.atlas-today li span { color: var(--atlas-cinnabar); font: 11px ui-monospace, monospace; }
+.atlas-today li p { margin: 0; padding: 16px 0; font-size: 14px; }
+.atlas-note { margin: 18px 0 0; padding-left: 12px; border-left: 3px solid var(--atlas-cinnabar); color: #607577; font-size: 11px; line-height: 1.7; }
+.atlas-library ul { max-height: 330px; margin: 0; padding: 0; list-style: none; overflow: auto; }
+.material-row { min-height: 42px; display: grid; grid-template-columns: 10px minmax(0,1fr) 76px 58px; align-items: center; gap: 10px; border-top: 1px solid rgba(189,203,196,.65); font-size: 11px; }
+.material-dot { width: 6px; height: 6px; border-radius: 50%; background: #a7b2ad; }
+.material-dot.is-ready { background: #3b7c65; box-shadow: 0 0 0 3px rgba(59,124,101,.11); }
+.material-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.material-role { color: #607577; }
+.material-status { padding: 3px 6px; text-align: center; font-size: 9px; }
+.atlas-footer { padding-top: 17px; display: flex; justify-content: space-between; color: #718384; font-size: 10px; }
+.atlas-error { padding: 12px 14px; color: #7d3027; background: #f5ded8; border-left: 3px solid var(--atlas-cinnabar); }
+.atlas-loading { min-height: 100dvh; display: grid; place-items: center; background: #edf2ef; color: #315d68; font: 18px STKaiti, KaiTi, serif; }
+
+@media (max-width: 760px) {
+  .atlas-header { padding: 0 20px; }
+  .atlas-brand small { display: none; }
+  .atlas-header nav button:first-child { display: none; }
+  .atlas-main { width: min(92vw, 620px); padding-top: 34px; }
+  .atlas-hero { grid-template-columns: 1fr; padding-bottom: 36px; }
+  .atlas-coordinate { display: none; }
+  .atlas-hero h1 { font-size: 41px; }
+  .atlas-countdown { width: 138px; height: 138px; margin: 38px auto 0; }
+  .atlas-countdown::before { width: 164px; left: -13px; }
+  .atlas-countdown::after { height: 164px; top: -13px; }
+  .atlas-countdown strong { font-size: 42px; }
+  .atlas-tracks, .atlas-grid { grid-template-columns: 1fr; }
+  .atlas-section__heading { align-items: start; flex-direction: column; gap: 8px; }
+  .atlas-section__heading > p { text-align: left; }
+  .atlas-footer { flex-direction: column; gap: 4px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; }
+}
+
 code, pre, .font-mono {
   font-family: 'JetBrains Mono', ui-monospace, monospace;
 }

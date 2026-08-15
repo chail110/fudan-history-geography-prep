@@ -256,6 +256,20 @@ export async function getCalendar() {
   return apiRequest('/calendar');
 }
 
+// --- 复旦历史地理备考台 ---
+
+export async function getExamOverview() {
+  return apiRequest('/exam/overview');
+}
+
+export async function getExamMaterials() {
+  return apiRequest('/exam/materials');
+}
+
+export async function bootstrapExamCourse() {
+  return apiRequest('/exam/bootstrap', { method: 'POST' });
+}
+
 // --- Summary ---
 
 export async function getSummary(courseId) {

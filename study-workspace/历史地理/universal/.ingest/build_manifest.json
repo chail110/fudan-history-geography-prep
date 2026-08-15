@@ -1,0 +1,1881 @@
+{
+  "artifacts": {
+    "base_chapter_phase_mappings": {
+      "path": ".ingest/base_chapter_phase_mappings.jsonl",
+      "sha256": "3a7b56935b8cdcf2c658d1a3f6ccd2d4c1106fa04527d796b18cc8e388a8ef15"
+    },
+    "base_content_units": {
+      "path": ".ingest/base_content_units.jsonl",
+      "sha256": "8959053910f1a6ed9c85e8c4b587f6bf9e52263f1fd5ccde9be4037d28c49a25"
+    },
+    "canonical_groups": {
+      "path": ".ingest/canonical_groups.jsonl",
+      "sha256": "118ba1a55fd7fd88ace943842c5debc4001c3fc2e45dccefc42108031abb0b36"
+    },
+    "chapter_phase_mappings": {
+      "path": ".ingest/chapter_phase_mappings.jsonl",
+      "sha256": "3a7b56935b8cdcf2c658d1a3f6ccd2d4c1106fa04527d796b18cc8e388a8ef15"
+    },
+    "content_units": {
+      "path": ".ingest/content_units.jsonl",
+      "sha256": "8959053910f1a6ed9c85e8c4b587f6bf9e52263f1fd5ccde9be4037d28c49a25"
+    },
+    "duplicate_candidates": {
+      "path": ".ingest/duplicate_candidates.jsonl",
+      "sha256": "d9ce7ae6b0468d65ddf119068714260c34fe917cb73be4344b260594810961e7"
+    },
+    "material_build_receipt": {
+      "path": ".ingest/material_build_receipt.json",
+      "sha256": "a7e18579ae3ff738718bc563c6235e3bd9512573b6f0ce1176689529613fbe07"
+    },
+    "parse_report": {
+      "path": ".ingest/parse_report.json",
+      "sha256": "40c02e4f79acdec9b8eebe4800b051f9aac96eba5fd4e8bb8b983041bc39b014"
+    },
+    "parser_receipts": {
+      "path": ".ingest/parser_receipts.json",
+      "sha256": "92b25d071a1b51ea6ea1fb884703021765ffde4112f0f362dc3ed521936515aa"
+    },
+    "review_patches": {
+      "path": ".ingest/review_patches.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "review_queue": {
+      "path": ".ingest/review_queue.jsonl",
+      "sha256": "8abd0b90d43fadb18f93a062571500aafdf4207d85710836a351eef5f56d6f0a"
+    },
+    "source_conflicts": {
+      "path": ".ingest/source_conflicts.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "source_manifest": {
+      "path": ".ingest/source_manifest.json",
+      "sha256": "a062a961daf7d90a3c30a7aff7d0b76326db373c1ad9282b8266fd9ac919fd93"
+    },
+    "source_priorities": {
+      "path": ".ingest/source_priorities.jsonl",
+      "sha256": "8df9aec652e772c03ce69d3fd19f3182f96f47e55562962210b182b17aa6cbae"
+    },
+    "source_raw_input": {
+      "path": ".ingest/source_raw_input.json",
+      "sha256": "6b4e1b73548250d252a97fa4c533416acbc6dfab89ee93266399f706d955347b"
+    },
+    "unbound_review": {
+      "path": ".ingest/unbound_review.json",
+      "sha256": "caa20f07e81adb8a91aa9251be68569637c902602c30c34c57f5ef39501df43b"
+    }
+  },
+  "derived_artifacts": {
+    "ingest_report": {
+      "path": "ingest_report.json",
+      "sha256": "ad47c2ff3f805810c21c94a1b81ae7285221472c88cc88bbc1c89ae45d66cb16"
+    },
+    "quiz_bank": {
+      "path": "references/quiz_bank.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "retrieval_index": {
+      "path": "references/retrieval_index.json",
+      "sha256": "0f71c78d9f6f557f7cb791fd24fb502c19cb0631869a4b6fc6ea1e716f7b4919"
+    },
+    "teaching_baseline": {
+      "path": "references/teaching_baseline.json",
+      "sha256": "7982273cb7ade2965703807a226eb8da2253a34fc21e57ad3b86c4c9c833d3b2"
+    },
+    "teaching_examples": {
+      "path": "references/teaching_examples.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "wiki:ch01": {
+      "path": "references/wiki/ch01.md",
+      "sha256": "625fc0e9904ab0681dae714131201230475b9fc55dad91a9bb24f6d2a0317ee1"
+    }
+  },
+  "fact_summary": {
+    "canonical_group_count": 86,
+    "config": {
+      "algorithm": "char3-dice-v1",
+      "exact_normalizer": "dedup-nfc-ws-v1",
+      "max_near_comparisons": 200000,
+      "min_near_chars": 24,
+      "near_normalizer": "dedup-nfc-casefold-ws-v1",
+      "schema_version": 1,
+      "threshold_ppm": 920000
+    },
+    "config_sha256": "e1aaf765e0e0b8d6d15137b9785cb42c4ee2b8ace4324555f27f6d0a55f17605",
+    "duplicate_candidate_count": 128,
+    "paths": {
+      "candidates": ".ingest/duplicate_candidates.jsonl",
+      "canonical_groups": ".ingest/canonical_groups.jsonl",
+      "conflicts": ".ingest/source_conflicts.jsonl",
+      "priorities": ".ingest/source_priorities.jsonl"
+    },
+    "source_conflict_count": 0,
+    "source_priority_count": 8,
+    "stats": {
+      "compatibility_bucket_count": 6,
+      "exact_candidate_count": 107,
+      "exact_fingerprint_group_count": 86,
+      "near_candidate_count": 21,
+      "near_compared_pair_count": 200000,
+      "near_eligible_pair_count": 994528,
+      "near_identical_text_variant_count": 18,
+      "near_identity_rejected_pair_count": 0,
+      "near_representative_count": 5257,
+      "near_skipped_pair_count": 794528,
+      "near_truncated": true,
+      "unit_count": 5596
+    },
+    "warnings": [
+      "near_candidate_comparison_cap_reached"
+    ]
+  },
+  "material_build": {
+    "completion": {
+      "recovery_logs": [],
+      "schema_version": 1
+    },
+    "generation_id": "a4440a41e7c47d1f27989054fc89621e313bdba64b01172b09593bf4d6b14358",
+    "parse_report": {
+      "path": ".ingest/parse_report.json",
+      "sha256": "40c02e4f79acdec9b8eebe4800b051f9aac96eba5fd4e8bb8b983041bc39b014"
+    },
+    "protocol_version": 2,
+    "raw_input": {
+      "path": ".ingest/source_raw_input.json",
+      "sha256": "6b4e1b73548250d252a97fa4c533416acbc6dfab89ee93266399f706d955347b"
+    },
+    "receipt": {
+      "path": ".ingest/material_build_receipt.json",
+      "sha256": "a7e18579ae3ff738718bc563c6235e3bd9512573b6f0ce1176689529613fbe07"
+    }
+  },
+  "page_count": 232,
+  "page_quality": [
+    {
+      "page": 1,
+      "reason_codes": [
+        "formula_hint"
+      ],
+      "route": "recover",
+      "score": 0.95,
+      "source_file": "25考研史地所真题.pdf"
+    },
+    {
+      "page": 2,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "25考研史地所真题.pdf"
+    },
+    {
+      "page": 1,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 2,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 3,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 4,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 5,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 6,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 7,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 8,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 9,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 10,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 11,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 12,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 13,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 14,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 15,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 16,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 17,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 18,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 19,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 20,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 21,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 22,
+      "reason_codes": [
+        "garbled_text",
+        "repeated_characters"
+      ],
+      "route": "recover",
+      "score": 0.55,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 23,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 24,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 25,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 26,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 27,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 28,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 29,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 30,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 31,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 32,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 33,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 34,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 35,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 36,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 37,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 38,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 39,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 40,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 41,
+      "reason_codes": [
+        "formula_hint"
+      ],
+      "route": "recover",
+      "score": 0.95,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 42,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 43,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 44,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 45,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 46,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 47,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 48,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 49,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 50,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 51,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 52,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 53,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 54,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 55,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 56,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 57,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 58,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 59,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 60,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 61,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 62,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 63,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 64,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 65,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 66,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 67,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 68,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 69,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 70,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 71,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 72,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 73,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 74,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "【历史】历史选考个人笔记和题目精华.pdf"
+    },
+    {
+      "page": 1,
+      "reason_codes": [
+        "visual_heavy",
+        "table_hint",
+        "formula_hint"
+      ],
+      "route": "recover",
+      "score": 0.78,
+      "source_file": "历史地理复习资料（孙版）.docx"
+    },
+    {
+      "page": 1,
+      "reason_codes": [
+        "garbled_text",
+        "repeated_characters"
+      ],
+      "route": "recover",
+      "score": 0.55,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 2,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 3,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 4,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 5,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 6,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 7,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 8,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 9,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 10,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 11,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 12,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 13,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 14,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 15,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 16,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 17,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 18,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 19,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 20,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 21,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 22,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 23,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 24,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 25,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 26,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 27,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 28,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 29,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 30,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 31,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 32,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 33,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 34,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 35,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 36,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 37,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 38,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 39,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 40,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 41,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 42,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 43,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 44,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 45,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 46,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 47,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 48,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 49,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 50,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "历史地理笔记、框架和论述题答案.pdf"
+    },
+    {
+      "page": 1,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 2,
+      "reason_codes": [
+        "garbled_text",
+        "repeated_characters"
+      ],
+      "route": "recover",
+      "score": 0.55,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 3,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 4,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 5,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 6,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 7,
+      "reason_codes": [
+        "repeated_characters"
+      ],
+      "route": "recover",
+      "score": 0.8,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 8,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 9,
+      "reason_codes": [
+        "repeated_characters"
+      ],
+      "route": "recover",
+      "score": 0.8,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 10,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 11,
+      "reason_codes": [
+        "repeated_characters"
+      ],
+      "route": "recover",
+      "score": 0.8,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 12,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 13,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 14,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 15,
+      "reason_codes": [
+        "formula_hint"
+      ],
+      "route": "recover",
+      "score": 0.95,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 16,
+      "reason_codes": [
+        "formula_hint"
+      ],
+      "route": "recover",
+      "score": 0.95,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 17,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 18,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 19,
+      "reason_codes": [
+        "formula_hint"
+      ],
+      "route": "recover",
+      "score": 0.95,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 20,
+      "reason_codes": [
+        "formula_hint"
+      ],
+      "route": "recover",
+      "score": 0.95,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 21,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 22,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 23,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 24,
+      "reason_codes": [
+        "repeated_characters"
+      ],
+      "route": "recover",
+      "score": 0.8,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 25,
+      "reason_codes": [
+        "formula_hint"
+      ],
+      "route": "recover",
+      "score": 0.95,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 26,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 27,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 28,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 29,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 30,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 31,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 32,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 33,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 34,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 35,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 36,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 37,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 38,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 39,
+      "reason_codes": [
+        "repeated_characters"
+      ],
+      "route": "recover",
+      "score": 0.8,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 40,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 41,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 42,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 43,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 44,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 45,
+      "reason_codes": [
+        "repeated_characters",
+        "formula_hint"
+      ],
+      "route": "recover",
+      "score": 0.75,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 46,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 47,
+      "reason_codes": [
+        "repeated_characters"
+      ],
+      "route": "recover",
+      "score": 0.8,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 48,
+      "reason_codes": [
+        "repeated_characters",
+        "formula_hint"
+      ],
+      "route": "recover",
+      "score": 0.75,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 49,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 50,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 51,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 52,
+      "reason_codes": [
+        "repeated_characters"
+      ],
+      "route": "recover",
+      "score": 0.8,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 53,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 54,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 55,
+      "reason_codes": [
+        "repeated_characters"
+      ],
+      "route": "recover",
+      "score": 0.8,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 56,
+      "reason_codes": [
+        "repeated_characters"
+      ],
+      "route": "recover",
+      "score": 0.8,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 57,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 58,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 59,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 60,
+      "reason_codes": [
+        "repeated_characters"
+      ],
+      "route": "recover",
+      "score": 0.8,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 61,
+      "reason_codes": [
+        "visual_heavy"
+      ],
+      "route": "recover",
+      "score": 0.88,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 62,
+      "reason_codes": [
+        "formula_hint"
+      ],
+      "route": "recover",
+      "score": 0.95,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 63,
+      "reason_codes": [
+        "repeated_characters",
+        "formula_hint"
+      ],
+      "route": "recover",
+      "score": 0.75,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 64,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 65,
+      "reason_codes": [
+        "formula_hint"
+      ],
+      "route": "recover",
+      "score": 0.95,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 66,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 67,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 68,
+      "reason_codes": [
+        "repeated_characters"
+      ],
+      "route": "recover",
+      "score": 0.8,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 69,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 70,
+      "reason_codes": [
+        "repeated_characters",
+        "formula_hint"
+      ],
+      "route": "recover",
+      "score": 0.75,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 71,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 72,
+      "reason_codes": [
+        "repeated_characters",
+        "formula_hint"
+      ],
+      "route": "recover",
+      "score": 0.75,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 73,
+      "reason_codes": [
+        "repeated_characters"
+      ],
+      "route": "recover",
+      "score": 0.8,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 74,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 75,
+      "reason_codes": [
+        "repeated_characters",
+        "formula_hint"
+      ],
+      "route": "recover",
+      "score": 0.75,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 76,
+      "reason_codes": [
+        "repeated_characters",
+        "formula_hint"
+      ],
+      "route": "recover",
+      "score": 0.75,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 77,
+      "reason_codes": [
+        "formula_hint"
+      ],
+      "route": "recover",
+      "score": 0.95,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 78,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 79,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 80,
+      "reason_codes": [
+        "repeated_characters"
+      ],
+      "route": "recover",
+      "score": 0.8,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 81,
+      "reason_codes": [
+        "repeated_characters"
+      ],
+      "route": "recover",
+      "score": 0.8,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 82,
+      "reason_codes": [
+        "formula_hint"
+      ],
+      "route": "recover",
+      "score": 0.95,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 83,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 84,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 85,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "史地名词解释及真题参考答案.pdf"
+    },
+    {
+      "page": 1,
+      "reason_codes": [
+        "formula_hint"
+      ],
+      "route": "recover",
+      "score": 0.95,
+      "source_file": "复旦史地所【考研】自主命题以来真题（回忆版 2014-2024）.pdf"
+    },
+    {
+      "page": 2,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "复旦史地所【考研】自主命题以来真题（回忆版 2014-2024）.pdf"
+    },
+    {
+      "page": 3,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "复旦史地所【考研】自主命题以来真题（回忆版 2014-2024）.pdf"
+    },
+    {
+      "page": 4,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "复旦史地所【考研】自主命题以来真题（回忆版 2014-2024）.pdf"
+    },
+    {
+      "page": 5,
+      "reason_codes": [
+        "formula_hint"
+      ],
+      "route": "recover",
+      "score": 0.95,
+      "source_file": "复旦史地所【考研】自主命题以来真题（回忆版 2014-2024）.pdf"
+    },
+    {
+      "page": 6,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "复旦史地所【考研】自主命题以来真题（回忆版 2014-2024）.pdf"
+    },
+    {
+      "page": 7,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "复旦史地所【考研】自主命题以来真题（回忆版 2014-2024）.pdf"
+    },
+    {
+      "page": 8,
+      "reason_codes": [
+        "formula_hint"
+      ],
+      "route": "recover",
+      "score": 0.95,
+      "source_file": "复旦史地所【考研】自主命题以来真题（回忆版 2014-2024）.pdf"
+    },
+    {
+      "page": 9,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "复旦史地所【考研】自主命题以来真题（回忆版 2014-2024）.pdf"
+    },
+    {
+      "page": 10,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "复旦史地所【考研】自主命题以来真题（回忆版 2014-2024）.pdf"
+    },
+    {
+      "page": 11,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "复旦史地所【考研】自主命题以来真题（回忆版 2014-2024）.pdf"
+    },
+    {
+      "page": 12,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "复旦史地所【考研】自主命题以来真题（回忆版 2014-2024）.pdf"
+    },
+    {
+      "page": 13,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "复旦史地所【考研】自主命题以来真题（回忆版 2014-2024）.pdf"
+    },
+    {
+      "page": 14,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "复旦史地所【考研】自主命题以来真题（回忆版 2014-2024）.pdf"
+    },
+    {
+      "page": 15,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "复旦史地所【考研】自主命题以来真题（回忆版 2014-2024）.pdf"
+    },
+    {
+      "page": 16,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "复旦史地所【考研】自主命题以来真题（回忆版 2014-2024）.pdf"
+    },
+    {
+      "page": 17,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "复旦史地所【考研】自主命题以来真题（回忆版 2014-2024）.pdf"
+    },
+    {
+      "page": 18,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "复旦史地所【考研】自主命题以来真题（回忆版 2014-2024）.pdf"
+    },
+    {
+      "page": 1,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
+      "source_file": "新建 DOCX 文档.docx"
+    },
+    {
+      "page": 1,
+      "reason_codes": [
+        "table_hint"
+      ],
+      "route": "recover",
+      "score": 0.95,
+      "source_file": "（自编）名词解释.docx"
+    }
+  ],
+  "pipeline_version": "ingestion-v2",
+  "review_issue_count": 125,
+  "schema_version": 2,
+  "source_count": 8,
+  "source_root": "C:\\Users\\30374\\Documents\\ChatGPT\\考研\\materials\\历史地理",
+  "unbound_review_count": 0,
+  "unit_count": 5596
+}

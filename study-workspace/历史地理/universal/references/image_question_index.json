@@ -1,0 +1,114 @@
+{
+  "generated_by": "build_visual_index.py",
+  "questions": [],
+  "per_chapter": {},
+  "teaching_questions": [],
+  "teaching_per_chapter": {},
+  "combined_per_chapter": {},
+  "suspects": [],
+  "prompt_suspects": [],
+  "answer_suspects": [],
+  "applied": 0,
+  "prompt_applied": 0,
+  "answer_applied": 0,
+  "bank_prompt_applied": 0,
+  "bank_answer_applied": 0,
+  "teaching_prompt_applied": 0,
+  "teaching_answer_applied": 0,
+  "wiki_applied": 9,
+  "wiki_deferred_answer_blocks_removed": 0,
+  "shared_prompt_answer_pages": [],
+  "shared_prompt_answer_count": 0,
+  "shared_prompt_answer_blockers": [],
+  "shared_prompt_answer_blocker_count": 0,
+  "manual_answer_exposure_count": 0,
+  "warnings": [
+    "no_media_backend: 缺 PyMuPDF（pip install pymupdf），无法枚举页内图片/矢量对象——结构信号缺失，仅靠文字信号，召回会打折",
+    "wiki_apply_unmapped: 20 visual pages have no wiki source declaration",
+    "wiki_visual_missing: __unmapped__ 有 20/20 个已检测视觉页未嵌入：史地名词解释及真题参考答案.pdf p.5、史地名词解释及真题参考答案.pdf p.31、史地名词解释及真题参考答案.pdf p.38、史地名词解释及真题参考答案.pdf p.62、史地名词解释及真题参考答案.pdf p.63、史地名词解释及真题参考答案.pdf p.64、史地名词解释及真题参考答案.pdf p.65、史地名词解释及真题参考答案.pdf p.66、史地名词解释及真题参考答案.pdf p.67、史地名词解释及真题参考答案.pdf p.71、史地名词解释及真题参考答案.pdf p.72、史地名词解释及真题参考答案.pdf p.73、史地名词解释及真题参考答案.pdf p.74、史地名词解释及真题参考答案.pdf p.75、史地名词解释及真题参考答案.pdf p.77、史地名词解释及真题参考答案.pdf p.78、史地名词解释及真题参考答案.pdf p.80、史地名词解释及真题参考答案.pdf p.81、复旦史地所【考研】自主命题以来真题（回忆版 2014-2024）.pdf p.5、复旦史地所【考研】自主命题以来真题（回忆版 2014-2024）.pdf p.9"
+  ],
+  "integrity": {
+    "schema_version": 2,
+    "generated_at": "2026-08-15T11:21:04.646854Z",
+    "mode": {
+      "materials_scan": true,
+      "materials_root": "C:\\Users\\30374\\Documents\\ChatGPT\\考研\\materials\\历史地理",
+      "apply_questions": true,
+      "apply_wiki": true,
+      "backend": "pypdf+pypdfium2"
+    },
+    "inputs": {
+      ".ingest/content_units.jsonl": {
+        "sha256": "8959053910f1a6ed9c85e8c4b587f6bf9e52263f1fd5ccde9be4037d28c49a25"
+      },
+      "ingest_report.json": {
+        "sha256": "e46f58cf7cafa4887466543fbf312d82fa2116ab0b1e7a770a492b3a99de3054"
+      },
+      "references/assets/wiki_4af53b00e3_p0018.png": {
+        "sha256": "764a63ac40ce272ce67054627721220288a070ea45b702d56e01b270d651e5f6"
+      },
+      "references/assets/wiki_4af53b00e3_p0057.png": {
+        "sha256": "b2f6addc868b7fa38394db2025ea0c20a0569693f54351310d781b320ae12c34"
+      },
+      "references/assets/wiki_4af53b00e3_p0060.png": {
+        "sha256": "7f4f04d847fd8cd6ac11d4156c1838a7435932cdb5b8aaed0bf969a697e5fe46"
+      },
+      "references/assets/wiki_4af53b00e3_p0065.png": {
+        "sha256": "8e1f29f0179668b70b4fe2ca8c181e7cbc2f38d178765c9e487d44c6b68cc484"
+      },
+      "references/assets/wiki_b4643b41c6_p0002.png": {
+        "sha256": "1128980b422d2b8fd67a06e258600e35e4c492086481682ec336140a7023a8f3"
+      },
+      "references/assets/wiki_b4643b41c6_p0003.png": {
+        "sha256": "b2bf79814e0330afdc3d61d8907720eb8d9270cf05c0ca03743c472c9334e680"
+      },
+      "references/assets/wiki_b4643b41c6_p0004.png": {
+        "sha256": "4b622928567d033e166822f7e9a883e7bf1a469f048ab4ee70477ba631efb01e"
+      },
+      "references/assets/wiki_b4643b41c6_p0008.png": {
+        "sha256": "e8ddfe68b1f9be8699d8dfa668ad7c2ddc5d8b2c41fb3ff3290d0504ba4267a4"
+      },
+      "references/assets/wiki_b4643b41c6_p0019.png": {
+        "sha256": "11550abf276dd2397540bb00a1d9a07479f8c1c40fa68824755731d28d2f1024"
+      },
+      "references/quiz_bank.json": {
+        "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "references/teaching_baseline.json": {
+        "sha256": "7982273cb7ade2965703807a226eb8da2253a34fc21e57ad3b86c4c9c833d3b2"
+      },
+      "references/teaching_examples.json": {
+        "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "references/wiki/ch01.md": {
+        "sha256": "625fc0e9904ab0681dae714131201230475b9fc55dad91a9bb24f6d2a0317ee1"
+      }
+    },
+    "materials": {
+      "25考研史地所真题.pdf": {
+        "sha256": "5898cab51b3220649cdd4f2f19e41e7f6e9a17173e543362328d8ae7318f096f"
+      },
+      "【历史】历史选考个人笔记和题目精华.pdf": {
+        "sha256": "c769b4c6e4c2e967f84f6a5b5ee69ade1342384da7b2b72101008114fd425396"
+      },
+      "历史地理笔记、框架和论述题答案.pdf": {
+        "sha256": "eabf9281681eb7de36c740f575ade3dbfbb4ad66fd3da95d7365b6104b2a00dc"
+      },
+      "史地名词解释及真题参考答案.pdf": {
+        "sha256": "061f65e46a78daf7b1f6723c7d44ad3cc754db7970c870c1d7d434e4f10b5e76"
+      },
+      "复旦史地所【考研】自主命题以来真题（回忆版 2014-2024）.pdf": {
+        "sha256": "9163d0dc58ce30dcc7a1c9fd9e81de959044600a5ba1b37caccd6b1e4afa581e"
+      }
+    },
+    "material_inventory_sha256": "d112f218d0c0ea1c6454ea3882bc847d245745aa1aab286adf6a595d993484a1",
+    "outputs": {
+      "figure_page_index.json": {
+        "sha256": "220cec02fd2e9aa7efadbe8ac85573bba7b447c91d3553499b051e00a237e9b7"
+      },
+      "image_question_index.json": {
+        "sha256": "60b39d9bef02ba0907f6fd0e4374ad4d1a0415a322ab40d81777bb126df6b6b8"
+      }
+    }
+  }
+}

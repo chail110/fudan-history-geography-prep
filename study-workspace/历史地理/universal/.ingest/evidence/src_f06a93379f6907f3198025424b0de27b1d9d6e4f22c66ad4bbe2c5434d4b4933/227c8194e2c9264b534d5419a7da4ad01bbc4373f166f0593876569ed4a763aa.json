@@ -1,0 +1,16 @@
+{
+  "candidate": {
+    "pages": [
+      20
+    ],
+    "reason_codes": [
+      "formula_hint"
+    ],
+    "source_file": "史地名词解释及真题参考答案.pdf",
+    "target_unit_ids": []
+  },
+  "schema_version": 1,
+  "source_file": "史地名词解释及真题参考答案.pdf",
+  "source_id": "src_f06a93379f6907f3198025424b0de27b1d9d6e4f22c66ad4bbe2c5434d4b4933",
+  "source_sha256": "061f65e46a78daf7b1f6723c7d44ad3cc754db7970c870c1d7d434e4f10b5e76"
+}

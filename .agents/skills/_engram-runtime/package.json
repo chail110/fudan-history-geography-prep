@@ -1,0 +1,59 @@
+{
+  "name": "opencode-engram-learning",
+  "version": "1.11.2",
+  "description": "Evidence-based learning engine for OpenCode \u2014 learn anything, verify by free recall, schedule with FSRS, adapt from your own data.",
+  "type": "module",
+  "license": "MIT",
+  "peerDependencies": {
+    "@opencode-ai/plugin": "^1.4.3"
+  },
+  "devDependencies": {
+    "vitest": "^2.1.0",
+    "@types/bun": "latest",
+    "typescript": "^5.8.0"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "main": "./.opencode-plugin/index.ts",
+  "exports": {
+    ".": "./.opencode-plugin/index.ts"
+  },
+  "keywords": [
+    "opencode",
+    "plugin",
+    "learning",
+    "fsrs",
+    "spaced-repetition",
+    "pi-package"
+  ],
+  "engines": {
+    "opencode": ">=1.0.0"
+  },
+  "pi": {
+    "extensions": ["./pi/engram.ts"],
+    "skills": ["./skills"],
+    "prompts": ["./pi/prompts"]
+  },
+  "files": [
+    ".opencode-plugin",
+    "hooks",
+    "skills",
+    "agents",
+    "scripts",
+    "docs",
+    "gold",
+    "experiments",
+    ".claude-plugin",
+    "pi",
+    "INSTALL-PI.md",
+    "INSTALL-CODEX.md",
+    "INSTALL-HERMES.md",
+    "INSTALL-OPENCLAW.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nagisanzenin/engram.git"
+  }
+}

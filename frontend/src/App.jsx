@@ -4,11 +4,13 @@ import ProfilePage from './pages/ProfilePage'
 import CoursePage from './pages/CoursePage'
 import LessonPage from './pages/LessonPage'
 import SyllabusPage from './pages/SyllabusPage'
+import ExamDashboardPage from './pages/ExamDashboardPage'
 
 export default function App() {
   return (
     <Routes>
-      <Route path="/" element={<DashboardPage />} />
+      <Route path="/" element={<ExamDashboardPage />} />
+      <Route path="/courses" element={<DashboardPage />} />
       <Route path="/profile" element={<ProfilePage />} />
       <Route path="/course/:courseId" element={<CoursePage />} />
       <Route path="/course/:courseId/syllabus" element={<SyllabusPage />} />

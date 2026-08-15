@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "policy": "append_only",
+  "teaching_example_ids": [],
+  "teaching_example_ids_by_chapter": {}
+}

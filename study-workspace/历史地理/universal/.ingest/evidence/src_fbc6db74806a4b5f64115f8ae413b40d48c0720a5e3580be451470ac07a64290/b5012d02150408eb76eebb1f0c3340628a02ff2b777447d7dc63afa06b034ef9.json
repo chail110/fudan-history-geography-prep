@@ -1,0 +1,14 @@
+{
+  "candidate": {
+    "pages": [],
+    "reason_codes": [
+      "ooxml_alternate_content_review"
+    ],
+    "source_file": "25考研史地所真题.pdf",
+    "target_unit_ids": []
+  },
+  "schema_version": 1,
+  "source_file": "25考研史地所真题.pdf",
+  "source_id": "src_fbc6db74806a4b5f64115f8ae413b40d48c0720a5e3580be451470ac07a64290",
+  "source_sha256": "5898cab51b3220649cdd4f2f19e41e7f6e9a17173e543362328d8ae7318f096f"
+}

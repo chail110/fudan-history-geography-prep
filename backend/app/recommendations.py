@@ -80,7 +80,7 @@ def _dashboard_response(db: Session) -> RecommendationDashboardResponse:
         LearningRecommendation.status == "suggested"
     ).order_by(
         LearningRecommendation.generation.desc(),
-        LearningRecommendation.created_at.desc(),
+        LearningRecommendation.id.desc(),
     ).limit(3).all()
     suggestions = list(reversed(suggestions))
 

@@ -1,0 +1,16 @@
+{
+  "candidate": {
+    "pages": [
+      1
+    ],
+    "reason_codes": [
+      "formula_hint"
+    ],
+    "source_file": "复旦史地所【考研】自主命题以来真题（回忆版 2014-2024）.pdf",
+    "target_unit_ids": []
+  },
+  "schema_version": 1,
+  "source_file": "复旦史地所【考研】自主命题以来真题（回忆版 2014-2024）.pdf",
+  "source_id": "src_b137080d7611b7c864e706b0da0230f1e5c2411b623aefc3617f3b078abe2216",
+  "source_sha256": "9163d0dc58ce30dcc7a1c9fd9e81de959044600a5ba1b37caccd6b1e4afa581e"
+}

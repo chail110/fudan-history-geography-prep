@@ -1,0 +1,14 @@
+{
+  "candidate": {
+    "pages": [],
+    "reason_codes": [
+      "ooxml_list_numbering_review"
+    ],
+    "source_file": "【历史】历史选考个人笔记和题目精华.pdf",
+    "target_unit_ids": []
+  },
+  "schema_version": 1,
+  "source_file": "【历史】历史选考个人笔记和题目精华.pdf",
+  "source_id": "src_e6d18af183950bc466e52bf3797a6b00b18cfc22ad6ba7a61b9f92d5f2249ec5",
+  "source_sha256": "c769b4c6e4c2e967f84f6a5b5ee69ade1342384da7b2b72101008114fd425396"
+}

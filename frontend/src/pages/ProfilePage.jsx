@@ -26,6 +26,25 @@ function level(count) {
   return 4;
 }
 
+function buildHeatWeeks(todayKey) {
+  const [year, month, day] = todayKey.split('-').map(Number);
+  const end = new Date(year, month - 1, day);
+  const start = new Date(end);
+  start.setDate(end.getDate() - 181);
+  start.setDate(start.getDate() - ((start.getDay() + 6) % 7));
+  const weeks = [];
+  const current = new Date(start);
+  while (current <= end) {
+    const column = [];
+    for (let i = 0; i < 7; i++) {
+      column.push({ key: toKey(current.getFullYear(), current.getMonth(), current.getDate()), future: current > end });
+      current.setDate(current.getDate() + 1);
+    }
+    weeks.push(column);
+  }
+  return weeks;
+}
+
 function StatCard({ value, label, accent }) {
   return (
     <div className="bg-white rounded-xl border border-stone-200/60 p-4">
@@ -79,24 +98,7 @@ export default function ProfilePage() {
     return arr;
   }, [year, m]);
 
-  // 热力图：最近 26 周（周一对齐）到今天
-  const heatWeeks = useMemo(() => {
-    const end = new Date(now.getFullYear(), now.getMonth(), now.getDate());
-    const start = new Date(end);
-    start.setDate(end.getDate() - 181);
-    start.setDate(start.getDate() - ((start.getDay() + 6) % 7)); // 回退到周一
-    const weeks = [];
-    const cur = new Date(start);
-    while (cur <= end) {
-      const col = [];
-      for (let i = 0; i < 7; i++) {
-        col.push({ key: toKey(cur.getFullYear(), cur.getMonth(), cur.getDate()), future: cur > end });
-        cur.setDate(cur.getDate() + 1);
-      }
-      weeks.push(col);
-    }
-    return weeks;
-  }, [todayKey]);
+  const heatWeeks = buildHeatWeeks(todayKey);
 
   const selectDay = (key) => {
     setSelectedDay(key);

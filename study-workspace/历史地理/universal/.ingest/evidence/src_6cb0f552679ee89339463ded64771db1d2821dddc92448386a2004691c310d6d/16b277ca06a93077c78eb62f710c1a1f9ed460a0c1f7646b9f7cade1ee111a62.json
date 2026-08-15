@@ -1,0 +1,14 @@
+{
+  "candidate": {
+    "pages": [],
+    "reason_codes": [
+      "ooxml_list_numbering_review"
+    ],
+    "source_file": "历史地理复习资料（孙版）.docx",
+    "target_unit_ids": []
+  },
+  "schema_version": 1,
+  "source_file": "历史地理复习资料（孙版）.docx",
+  "source_id": "src_6cb0f552679ee89339463ded64771db1d2821dddc92448386a2004691c310d6d",
+  "source_sha256": "355de582faa468c4269686863fa804783a3a9e822f789b7ab33601b91d5a4ab7"
+}

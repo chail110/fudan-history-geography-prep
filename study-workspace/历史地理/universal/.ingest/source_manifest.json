@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "media_type": "application/pdf",
+      "path": "25考研史地所真题.pdf",
+      "schema_version": 1,
+      "sha256": "5898cab51b3220649cdd4f2f19e41e7f6e9a17173e543362328d8ae7318f096f",
+      "size_bytes": 274706,
+      "source_id": "src_fbc6db74806a4b5f64115f8ae413b40d48c0720a5e3580be451470ac07a64290",
+      "status": "review_required"
+    },
+    {
+      "media_type": "application/pdf",
+      "path": "【历史】历史选考个人笔记和题目精华.pdf",
+      "schema_version": 1,
+      "sha256": "c769b4c6e4c2e967f84f6a5b5ee69ade1342384da7b2b72101008114fd425396",
+      "size_bytes": 3053349,
+      "source_id": "src_e6d18af183950bc466e52bf3797a6b00b18cfc22ad6ba7a61b9f92d5f2249ec5",
+      "status": "review_required"
+    },
+    {
+      "media_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "path": "历史地理复习资料（孙版）.docx",
+      "schema_version": 1,
+      "sha256": "355de582faa468c4269686863fa804783a3a9e822f789b7ab33601b91d5a4ab7",
+      "size_bytes": 2787343,
+      "source_id": "src_6cb0f552679ee89339463ded64771db1d2821dddc92448386a2004691c310d6d",
+      "status": "review_required"
+    },
+    {
+      "media_type": "application/pdf",
+      "path": "历史地理笔记、框架和论述题答案.pdf",
+      "schema_version": 1,
+      "sha256": "eabf9281681eb7de36c740f575ade3dbfbb4ad66fd3da95d7365b6104b2a00dc",
+      "size_bytes": 1306289,
+      "source_id": "src_b21018099338f3181b82ad1c25e2b9f435f0cac824bb77ee14c2d58f5d6fe962",
+      "status": "review_required"
+    },
+    {
+      "media_type": "application/pdf",
+      "path": "史地名词解释及真题参考答案.pdf",
+      "schema_version": 1,
+      "sha256": "061f65e46a78daf7b1f6723c7d44ad3cc754db7970c870c1d7d434e4f10b5e76",
+      "size_bytes": 3307265,
+      "source_id": "src_f06a93379f6907f3198025424b0de27b1d9d6e4f22c66ad4bbe2c5434d4b4933",
+      "status": "review_required"
+    },
+    {
+      "media_type": "application/pdf",
+      "path": "复旦史地所【考研】自主命题以来真题（回忆版 2014-2024）.pdf",
+      "schema_version": 1,
+      "sha256": "9163d0dc58ce30dcc7a1c9fd9e81de959044600a5ba1b37caccd6b1e4afa581e",
+      "size_bytes": 799416,
+      "source_id": "src_b137080d7611b7c864e706b0da0230f1e5c2411b623aefc3617f3b078abe2216",
+      "status": "review_required"
+    },
+    {
+      "media_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "path": "新建 DOCX 文档.docx",
+      "schema_version": 1,
+      "sha256": "ec0c34e71d46c221f6433d739e5e4ed259717b4aee718bf7dc09eb26aca518e0",
+      "size_bytes": 586966,
+      "source_id": "src_56304cfd0af7addb1f550df60fbf22ddb8acb54f0a4bbdd0f270762b2f14532f",
+      "status": "review_required"
+    },
+    {
+      "media_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "path": "（自编）名词解释.docx",
+      "schema_version": 1,
+      "sha256": "9c256ccd50590de6cc475e00d2541284a85e4a1b590440b35cc783ac46c3d900",
+      "size_bytes": 429938,
+      "source_id": "src_58967b22b018a743f68d49b7c30207166cebb3dca6d6a0995da23fa99190e6f0",
+      "status": "review_required"
+    }
+  ]
+}

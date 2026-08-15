@@ -1,0 +1,17 @@
+{
+  "asset_role_promotion_count": 0,
+  "asset_role_promotions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "candidate_asset_policy_sha256": "53c5111ded7406bbc51701630f3d98bf560eed2289fb0751557bee909b0a4dc7",
+  "generation_id": "797c1532ab22caf6ab37297491b03ce7b3a2d9d166d3d0bd94b42a32f70d2cd5",
+  "parse_report": {
+    "path": ".ingest/parse_report.json",
+    "sha256": "96cb3cd9e6eaed669adc4897d8cc63215ca70606caeeea5449edded5100417b7"
+  },
+  "previous_build_manifest_sha256": null,
+  "raw_input": {
+    "path": ".ingest/source_raw_input.json",
+    "sha256": "a576fec30aab13ef95685c1bfbdf31488946b318dedbf1884eb54d166bca0716"
+  },
+  "schema_version": 1,
+  "status": "pending"
+}

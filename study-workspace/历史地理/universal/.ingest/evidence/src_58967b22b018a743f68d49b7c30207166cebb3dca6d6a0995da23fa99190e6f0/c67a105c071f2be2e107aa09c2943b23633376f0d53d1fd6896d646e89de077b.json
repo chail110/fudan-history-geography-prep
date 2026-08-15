@@ -1,0 +1,14 @@
+{
+  "candidate": {
+    "pages": [],
+    "reason_codes": [
+      "ooxml_list_numbering_review"
+    ],
+    "source_file": "（自编）名词解释.docx",
+    "target_unit_ids": []
+  },
+  "schema_version": 1,
+  "source_file": "（自编）名词解释.docx",
+  "source_id": "src_58967b22b018a743f68d49b7c30207166cebb3dca6d6a0995da23fa99190e6f0",
+  "source_sha256": "9c256ccd50590de6cc475e00d2541284a85e4a1b590440b35cc783ac46c3d900"
+}

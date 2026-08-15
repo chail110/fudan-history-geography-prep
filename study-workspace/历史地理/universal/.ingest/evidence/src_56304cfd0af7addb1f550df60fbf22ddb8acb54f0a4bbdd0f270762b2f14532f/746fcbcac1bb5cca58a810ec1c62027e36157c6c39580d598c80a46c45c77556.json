@@ -1,0 +1,14 @@
+{
+  "candidate": {
+    "pages": [],
+    "reason_codes": [
+      "chapter_unassigned"
+    ],
+    "source_file": "新建 DOCX 文档.docx",
+    "target_unit_ids": []
+  },
+  "schema_version": 1,
+  "source_file": "新建 DOCX 文档.docx",
+  "source_id": "src_56304cfd0af7addb1f550df60fbf22ddb8acb54f0a4bbdd0f270762b2f14532f",
+  "source_sha256": "ec0c34e71d46c221f6433d739e5e4ed259717b4aee718bf7dc09eb26aca518e0"
+}

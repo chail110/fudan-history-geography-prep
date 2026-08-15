@@ -1,0 +1,18 @@
+{
+  "candidate": {
+    "pages": [
+      3
+    ],
+    "reason_codes": [
+      "source_language_unknown"
+    ],
+    "source_file": "【历史】历史选考个人笔记和题目精华.pdf",
+    "target_unit_ids": [
+      "unit_32959d43d1d5f80f0a4b39ccd0671a7121d382a0c5289d4b49177357ee6855cc"
+    ]
+  },
+  "schema_version": 1,
+  "source_file": "【历史】历史选考个人笔记和题目精华.pdf",
+  "source_id": "src_e6d18af183950bc466e52bf3797a6b00b18cfc22ad6ba7a61b9f92d5f2249ec5",
+  "source_sha256": "c769b4c6e4c2e967f84f6a5b5ee69ade1342384da7b2b72101008114fd425396"
+}

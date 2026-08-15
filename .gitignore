@@ -52,3 +52,6 @@ docs/AUTORESEARCH-METHOD.md
 # 本地 Claude/Codex 配置
 /.claude/
 /.codex/
+
+# 本地学习记录（Engram FSRS 状态与闭卷复习凭据）
+/.study-data/

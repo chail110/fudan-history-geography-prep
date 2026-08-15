@@ -1,0 +1,20 @@
+{
+  "candidate": {
+    "pages": [
+      1
+    ],
+    "reason_codes": [
+      "garbled_text",
+      "repeated_characters"
+    ],
+    "source_file": "历史地理笔记、框架和论述题答案.pdf",
+    "target_unit_ids": [
+      "unit_0c76859ba54105d46c4a96f8c2662d0a5ae926314f12b27b2592f55e217ac339",
+      "unit_12fbc2ede292487814a522bf05c40c17a85c9a390fc2624a29216f86af093f93"
+    ]
+  },
+  "schema_version": 1,
+  "source_file": "历史地理笔记、框架和论述题答案.pdf",
+  "source_id": "src_b21018099338f3181b82ad1c25e2b9f435f0cac824bb77ee14c2d58f5d6fe962",
+  "source_sha256": "eabf9281681eb7de36c740f575ade3dbfbb4ad66fd3da95d7365b6104b2a00dc"
+}

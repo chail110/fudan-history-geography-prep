@@ -1,0 +1,464 @@
+{
+  "created_at": "2026-08-15T10:54:01Z",
+  "git": {
+    "available": false,
+    "branch": null,
+    "commit": null,
+    "dirty": null,
+    "reason": "package_root_not_git_root"
+  },
+  "package_root": "C:\\Users\\30374\\Documents\\ChatGPT\\考研\\.agents\\skills\\universal-exam-cram-coach",
+  "python": {
+    "executable": "C:\\Users\\30374\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "version": "3.12.13"
+  },
+  "receipt_type": "exam_runtime",
+  "runtime_digest": "34c7ece26c390ef23edb958a6bd5aa0e842e81dc85ea900740afd61c92c89181",
+  "runtime_files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "6c81e5062d0ffdeb7d52cecb5a3d8e2f6e155aead7a12688a9f072a34f61ec63"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "21f44893f05104228df2120e9486182f69a564d666ff55cd59720b380fc9f3b1"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "300cf9d8ef156408c97d10ae4ef142020229c8d2e3f8b317145010087de26600"
+    },
+    {
+      "path": "docs/agent-portability.md",
+      "sha256": "132d8472e4a9cd6e9915269f994a1eb0f0850f43105532250a099670cc5c1487"
+    },
+    {
+      "path": "docs/crop-receipt-backfill.md",
+      "sha256": "b71e3be52990eb76d1db5ef34dcc909ecb1179e5a739154ecee742a0941fb0d5"
+    },
+    {
+      "path": "docs/file-format.md",
+      "sha256": "5dfbe8e132d1e755a45a28ad3b881f7afe69789536b1792910a7074f08497fc5"
+    },
+    {
+      "path": "docs/inline-worked-example-evidence.md",
+      "sha256": "55c0e65251a32974f4ec65ae99f9b3bafd3483782b934a84c32c30e41eb0de80"
+    },
+    {
+      "path": "docs/langgraph-host-adapter.md",
+      "sha256": "30f2df109062bbb1176bf15f4609c3438cba45193037a7855df349908e25eb20"
+    },
+    {
+      "path": "docs/language-policy.md",
+      "sha256": "ca07e5372e0b5c2d81ce44b95774fec82cdc72e8d54aa0bea4fd35fb60f0510f"
+    },
+    {
+      "path": "docs/openai-study-guide-adapter.md",
+      "sha256": "d0c70198c76a579a738bbdd479ec6ee13f0ff330464d682654b8318c65e500d0"
+    },
+    {
+      "path": "docs/pdf-capability-adapters.json",
+      "sha256": "d3132c5427a1b6ea8c0756abe725760c16828d966e3138908435b5ea7813a8a2"
+    },
+    {
+      "path": "docs/pdf-capability-adapters.md",
+      "sha256": "3a781abc0277414ea8718bf6f4e0afb2d727a92c5f9e46fe9f1dd6e95a2795fb"
+    },
+    {
+      "path": "locales/en/SKILL.md",
+      "sha256": "79779ade9d6a8c76e4ca655fdc1261dec39264c8f2eb47767acce2ac1ea0f9c0"
+    },
+    {
+      "path": "locales/en/messages.json",
+      "sha256": "894063ebeeadc2314e59c6955cf34cf5aecda94ab770dd2fe0b1895bed75f8ff"
+    },
+    {
+      "path": "locales/en/skills/confusion-tracker.md",
+      "sha256": "afb6f7b24567902e5960d5d5b6e90dc5e6a9959c71314c0a88f32053d6b7ad97"
+    },
+    {
+      "path": "locales/en/skills/exam-cheatsheet.md",
+      "sha256": "31e55f8ca3431f3a757fd81d82dbd39d5130a8706ebd212a924b2fb4cd3715a9"
+    },
+    {
+      "path": "locales/en/skills/exam-cram.md",
+      "sha256": "61c1b69d46ef1c8fb6a748670522a5876b9dcccbe714748600500fd9d77f637e"
+    },
+    {
+      "path": "locales/en/skills/exam-help.md",
+      "sha256": "ab4c71451c9ab21bb95b7c850e355f7716118f376f750f56cc50cf2f8e825bb4"
+    },
+    {
+      "path": "locales/en/skills/exam-ingest.md",
+      "sha256": "97571469d83dce47df5ad9697dd6cea483fb85734195182218e89313241499be"
+    },
+    {
+      "path": "locales/en/skills/exam-quiz.md",
+      "sha256": "d9bb794c8a4814d4a66ac8bf910e5e9901faa73f8fbf2fd36341dadaeb101249"
+    },
+    {
+      "path": "locales/en/skills/exam-review.md",
+      "sha256": "c17a78263b75453632ad9303122a8d26b732f99a285a5b2cdba5e4970c658f74"
+    },
+    {
+      "path": "locales/en/skills/exam-tutor.md",
+      "sha256": "e6611ce094a565511ccecb9af2fecbb5947a3972bdc03112c70743be479577e2"
+    },
+    {
+      "path": "locales/en/templates/quiz_bank_template.json",
+      "sha256": "b6610b7b10408372747e04ddf61a7805a16c8b32a8cbbf938d86f62a4045762a"
+    },
+    {
+      "path": "locales/en/templates/study_plan_template.md",
+      "sha256": "23a778bbdae333d3a20f51cd0d252e3eefbfcf5c1fa2a714ef6b9308c074a019"
+    },
+    {
+      "path": "locales/en/templates/study_progress_template.md",
+      "sha256": "5358198b97479d8b46ca247fcffb981bfc2539999c128cb30c6c0f93a38370dc"
+    },
+    {
+      "path": "locales/zh/SKILL.md",
+      "sha256": "149927d6d84c6b712c6691a2c20a40ba8fb19bc64f1fad7e210fe799f38484f8"
+    },
+    {
+      "path": "locales/zh/messages.json",
+      "sha256": "89b77559c786fb3c03ce356ecd8f2a9f651ae4a4911c5b22b85435d4eae5adba"
+    },
+    {
+      "path": "locales/zh/skills/confusion-tracker.md",
+      "sha256": "dbc1da9caf2301f477ebaaaecd35b13bfa625a283d199b7639734f38ae3bd083"
+    },
+    {
+      "path": "locales/zh/skills/exam-cheatsheet.md",
+      "sha256": "0ae5db02941b1735c1c3717e284efcc45f3ae2bbd727f984fbedb03a9930ed5c"
+    },
+    {
+      "path": "locales/zh/skills/exam-cram.md",
+      "sha256": "4c09f5c480aa47644988a13fd5c50d8b491f69d647e513bee6a5529e740d73c7"
+    },
+    {
+      "path": "locales/zh/skills/exam-help.md",
+      "sha256": "23802a6e6f7b33cdf61b548c809d49889bebacfd51d0c00f0917f0c013ec0827"
+    },
+    {
+      "path": "locales/zh/skills/exam-ingest.md",
+      "sha256": "9f5d81f852b000888919f8e24f76520fe6f96b6288c59a44bd914e8bde9ba394"
+    },
+    {
+      "path": "locales/zh/skills/exam-quiz.md",
+      "sha256": "7ee949ae60f9ff12e5ea8cab4460075b0fb0af04b03d602c52d617a0120df73e"
+    },
+    {
+      "path": "locales/zh/skills/exam-review.md",
+      "sha256": "e9c1047e36ccead9e9d89bdbdc405b60c77d7cfe8dfc35c6db90d92653e6efb5"
+    },
+    {
+      "path": "locales/zh/skills/exam-tutor.md",
+      "sha256": "210537ee42b81cbc3f4d538ada7fa730622fe3ef9e36d7e54fdbeb5d1514fda2"
+    },
+    {
+      "path": "locales/zh/templates/quiz_bank_template.json",
+      "sha256": "ad908fabb00e0772ae4a86316cae4be7d8a6b044a0ce3a9d895a2294f4b586e0"
+    },
+    {
+      "path": "locales/zh/templates/study_plan_template.md",
+      "sha256": "c8c8dd37c13e22a7d71c46714a11bb01b5046df231891d37cc84b1d0ab483b6f"
+    },
+    {
+      "path": "locales/zh/templates/study_progress_template.md",
+      "sha256": "e112b83fdc89173e0e660c42515332a373c188e81c5661ecc94a9a02937b88fb"
+    },
+    {
+      "path": "prompts/web_prompt.en.md",
+      "sha256": "3b577e373ddb40ddeae67690c237da3c1232f01c36298c0e84f6db1d1b2f9f6b"
+    },
+    {
+      "path": "prompts/web_prompt.md",
+      "sha256": "28e12b1690393b5b97b57438e1d66ce782a02a53681b6862836a4fcbbec1c9f4"
+    },
+    {
+      "path": "scripts/asset_crops.py",
+      "sha256": "3754e8b146ef9a9ad801f8981e6461f68220184b2333ea5af689660e615ab43b"
+    },
+    {
+      "path": "scripts/asset_policy.py",
+      "sha256": "80a246a4d853b9baf4b91f8303efd32e35ccbbd30c240a7a46c7071a450a103b"
+    },
+    {
+      "path": "scripts/backfill_crop_receipts.py",
+      "sha256": "bc9ea0e527078e2c35f2cbdb0c372e7dfef85ffeb84b5ee2a7a6a7e900b23cd1"
+    },
+    {
+      "path": "scripts/build_raw_input_from_workspace.py",
+      "sha256": "d4a3837fbb535e204cabb03559942ae4ef83aeb55ad1f7d5c15da797f9360bfe"
+    },
+    {
+      "path": "scripts/build_visual_index.py",
+      "sha256": "7ddfd3261aff8d425acad651230e877cda10bb97e10206f4804b8eabb4f097dd"
+    },
+    {
+      "path": "scripts/cheatsheet_render.py",
+      "sha256": "2d0566369c5d1e3bb42e4587be462483809d7f7a850e037a181c227314a73e7c"
+    },
+    {
+      "path": "scripts/check_deps.py",
+      "sha256": "ab6df08a3bc0c034abdc84bf2e7b5f2ea72f12207eb8950ad5e0daff058c4343"
+    },
+    {
+      "path": "scripts/chunk.py",
+      "sha256": "628e8e76cb87354dbf64e746e1499de7cc0631de42c3d083826006a4143c7585"
+    },
+    {
+      "path": "scripts/exam_start.py",
+      "sha256": "056b67a0af32054399da3a9008e74cd884be8ee82096faa6835b807138b90a29"
+    },
+    {
+      "path": "scripts/host_adapters/__init__.py",
+      "sha256": "1d2987531bcb75931d77c98ab27961ef3ee699cc0a00265689379b5784702621"
+    },
+    {
+      "path": "scripts/host_adapters/command_core.py",
+      "sha256": "300d51266979f9a07d78ac18329db29e926325a1fca5fe4c99e160df6453b7f5"
+    },
+    {
+      "path": "scripts/host_adapters/langgraph_exam.py",
+      "sha256": "3ffb8186c9da9802efb7e25c8d72372e94d6eb02f64b12526d8b9a621646bae9"
+    },
+    {
+      "path": "scripts/host_adapters/openai_study_guide.py",
+      "sha256": "b6590b4379f985e4c1ab5faf13881104a8a2e2b8d0a4e90efc0321d0b828ad76"
+    },
+    {
+      "path": "scripts/i18n.py",
+      "sha256": "91170291500205ed30b59235fabafb5fd01e905007cf1ec0014a833afa36c374"
+    },
+    {
+      "path": "scripts/image_validation.py",
+      "sha256": "ad6283adb2726c85cb4dcf302da09627472fc5d7a11feb7e7e0f007063738ef2"
+    },
+    {
+      "path": "scripts/import_formula_audit.py",
+      "sha256": "323c847e050c87598b41dbba87726db6497409b943fdc70421340bc76f39761e"
+    },
+    {
+      "path": "scripts/ingest.py",
+      "sha256": "3aabbd1363574fb8f7710f193872bdef6c3d5324c8618cc57c26bf762d62cff1"
+    },
+    {
+      "path": "scripts/ingest_course.py",
+      "sha256": "93d55509a7e20baa9debca04384d7daf1348fa19120bc03eed40d6f05ac70f52"
+    },
+    {
+      "path": "scripts/ingest_review.py",
+      "sha256": "2378d424fa0c97bea0622ebca52a5712e871bc4ac2656a1213fd2e0b13079155"
+    },
+    {
+      "path": "scripts/ingestion/__init__.py",
+      "sha256": "2e564e92d5652b64daa04fed12b72939433471afa6a9dd02305ec9a48b72f788"
+    },
+    {
+      "path": "scripts/ingestion/adapters.py",
+      "sha256": "12471d29787e3e49556bf18c1a391f41ef682204a2098435d6b0d60c060e058f"
+    },
+    {
+      "path": "scripts/ingestion/claims.py",
+      "sha256": "5a17e620803192ebc5aceb7a1d7bb4b8e625a54a75bb50e0fb69cecca9ed352c"
+    },
+    {
+      "path": "scripts/ingestion/dedup.py",
+      "sha256": "5889effee0e6952bd212e401fdddbb15a310b1e0491acc5624eaff2ed20428b0"
+    },
+    {
+      "path": "scripts/ingestion/facts.py",
+      "sha256": "e3e4c7475a8c599bc346e1a0129c6637454625f6fd2a3fc516e17f87a6fd1683"
+    },
+    {
+      "path": "scripts/ingestion/identifiers.py",
+      "sha256": "18ef38dbffc841edc315670019a371b880129cae54cdaf3323177eda182454a5"
+    },
+    {
+      "path": "scripts/ingestion/language.py",
+      "sha256": "b9eca2aee1c8ed4ae1e09c801cdae1a5db07e0c1768dedb39dc1bca62df5b0c8"
+    },
+    {
+      "path": "scripts/ingestion/models.py",
+      "sha256": "c69fffec07b2e02b0ed164bff0d8b9f21c16367f319a16c5ccb627fcfc5a932a"
+    },
+    {
+      "path": "scripts/ingestion/ooxml.py",
+      "sha256": "1f30fe8fe20d8c62ffa1e1f4c6630d84b7edb9d1861d6d670b0df3480f9cb075"
+    },
+    {
+      "path": "scripts/ingestion/pipeline.py",
+      "sha256": "1758e0991f1a6d46afb94eec24be3e712504f46e1a39b49d695e52856666b34b"
+    },
+    {
+      "path": "scripts/ingestion/quality.py",
+      "sha256": "a2c511739ead7823b7957b4c15405fa92aed2672bf27bb01b5817ca60abaae15"
+    },
+    {
+      "path": "scripts/ingestion/raster.py",
+      "sha256": "dbc77f755f924e534c50d9d24abb0f94d2bc7baa9b59e63dc3b181111d81e0b6"
+    },
+    {
+      "path": "scripts/ingestion/retrieval_folding.py",
+      "sha256": "c4c7eae4afa1527664968ad0646575bdc7ad3eb6dce8793bbfb02fb71ecfd4a1"
+    },
+    {
+      "path": "scripts/ingestion/storage.py",
+      "sha256": "295615b1c7492465a0ef8e6ea0c09a04a85908c3dc2e7c9a5f2bb4a70b5d219f"
+    },
+    {
+      "path": "scripts/ingestion/xlsx.py",
+      "sha256": "108fed906412156f83af098830ad6c1917c087365c656ca77d342b550ac73acc"
+    },
+    {
+      "path": "scripts/lightweight_session.py",
+      "sha256": "b96e919a73ed154a996ec9551fbeda7913559a050751179d4cb74033457a5ffc"
+    },
+    {
+      "path": "scripts/list_figure_pages.py",
+      "sha256": "479be62ef5aad10d46404de66de0dcd7dfac0dc6eb78faf1fc3b148d15a6b145"
+    },
+    {
+      "path": "scripts/list_image_questions.py",
+      "sha256": "ea474910aacf142561cd7e4a101beb211e8f90da492da1587de87a5eaa9eed74"
+    },
+    {
+      "path": "scripts/list_teaching_examples.py",
+      "sha256": "16c72b98b87127e5df894c09e43856ff0a0b5b7284dfa648ffe3357531a796d1"
+    },
+    {
+      "path": "scripts/material_generation.py",
+      "sha256": "a174fb7eea7d50b0546f950daf96c16b71767ca36919d099a1c381fc3e364800"
+    },
+    {
+      "path": "scripts/math_text_policy.py",
+      "sha256": "2b04beffef7ea0248cfdff5ad47f50a6300deb63370bd09105aa3d3be82ffda2"
+    },
+    {
+      "path": "scripts/notebook.py",
+      "sha256": "de82c8089b534b3976028883ae8f42de7039201eb6a135c9897961b5262bb7ba"
+    },
+    {
+      "path": "scripts/pdf_capabilities.py",
+      "sha256": "8b0bb06066f4017dfe1af4b23204419bed950353ac52644953ee87b83343255d"
+    },
+    {
+      "path": "scripts/readiness.py",
+      "sha256": "0238cdf4219c12d918c806d044667505f82e6fee87587d66c326800ccca5d162"
+    },
+    {
+      "path": "scripts/retrieve.py",
+      "sha256": "956eccb803cdc5c2719017f1a7356f39aad8455f43e9a1f790b22a8317d8e996"
+    },
+    {
+      "path": "scripts/score_difficulty.py",
+      "sha256": "5c97cd6f28dfb5ba41869fcd82d03fbc8df2fca7e7032745d08fd0a40369857b"
+    },
+    {
+      "path": "scripts/select_hard_questions.py",
+      "sha256": "8e3b65b06521f47b38eaf65befc622ea43cd318c0a82688583d569a88b9b6cc5"
+    },
+    {
+      "path": "scripts/select_questions.py",
+      "sha256": "f01ca147e27dff4f53f353b01533fe0bd35008844e3c8bd39d88c15b7a0a3fe5"
+    },
+    {
+      "path": "scripts/show_question_assets.py",
+      "sha256": "10f0bbfaf9326906dd71750c0c6253085e4cd57cc753518e569d4e42e7f1a4cb"
+    },
+    {
+      "path": "scripts/stable_ids.py",
+      "sha256": "ab4b6776185a5f422566b06808d30cf6a32734922110bf16e088f937b43f07c0"
+    },
+    {
+      "path": "scripts/strict_json.py",
+      "sha256": "d25a17911e7665aa6e2f0d03758e56f28ad7db5c06b8cb1a6425b27c661405e2"
+    },
+    {
+      "path": "scripts/study_guide_author.py",
+      "sha256": "cc2eccb11effcfdd52058835c94cb40855c809ff86120783b00a6cf079602c25"
+    },
+    {
+      "path": "scripts/study_guide_content.py",
+      "sha256": "6f922694fbc27a04a37eedb18d4ede8a01ee2d37577166aec6c448abe98c2224"
+    },
+    {
+      "path": "scripts/study_guide_document.py",
+      "sha256": "61aeb9ddb5197a959d739b80e5cf67d3e06da895eccca7ce4fceb7de7ba945a2"
+    },
+    {
+      "path": "scripts/study_guide_explain.py",
+      "sha256": "a40eec39a0c91036d753bba92067452d76e7491105844a09778a6c36b44bcf72"
+    },
+    {
+      "path": "scripts/study_guide_provenance.py",
+      "sha256": "9dc8bc5f0f302fc93f7fa7ef7f1f236e064f223282abb1239e0970ba3d4392cb"
+    },
+    {
+      "path": "scripts/study_guide_qa.py",
+      "sha256": "1d70fc43f20c0d53f9018f27fb70d8bc09c01835ecfacc66d24f3f671652ba07"
+    },
+    {
+      "path": "scripts/study_guide_render.py",
+      "sha256": "ab3735b86638300648e1eb31f33b1585bc915b3baf90abc2b611f7557c72a634"
+    },
+    {
+      "path": "scripts/update_progress.py",
+      "sha256": "671527a620c45b06e1def88d42a577d83cdeff4d367eb459d2dacd7ac03f1ac0"
+    },
+    {
+      "path": "scripts/validate_workspace.py",
+      "sha256": "80bd974c7a2b6dcf5a31607c611e12c47b17a4e7f425cfdf4baffd4e26e03783"
+    },
+    {
+      "path": "scripts/verify_claims.py",
+      "sha256": "fee69f5ae6494943a410e8ffc892e414dda176a744d0e8c3d3fff8bfc7731154"
+    },
+    {
+      "path": "skills/confusion-tracker/SKILL.md",
+      "sha256": "77bf715b3bdb2b6684202635706728590dc3213e01047bd6d9cbd474bd5504c2"
+    },
+    {
+      "path": "skills/exam-audit/SKILL.md",
+      "sha256": "1b019e1e0ec99d16d44d02eeddfb58a6529fa6a8664515868b54ab204226c47d"
+    },
+    {
+      "path": "skills/exam-cheatsheet/SKILL.md",
+      "sha256": "a0289ed77677de3daec959b05e4e5edbcbaf882d4e03e3c8560404c79a4cd612"
+    },
+    {
+      "path": "skills/exam-cram/SKILL.md",
+      "sha256": "5165b8608bca700c6b844b30a01f7a18e0c9ce1602a8e830695f85b2b69eeb3b"
+    },
+    {
+      "path": "skills/exam-help/SKILL.md",
+      "sha256": "1b20be421ff9aed3b02c5cf8cbf0341589fe06511658809d25fccaf12738c87b"
+    },
+    {
+      "path": "skills/exam-ingest/SKILL.md",
+      "sha256": "1e27318c4b746bb30648eb4a7d1c498db640c3f84d1366cfa5bda0f455165f8e"
+    },
+    {
+      "path": "skills/exam-quiz/SKILL.md",
+      "sha256": "2acf5c9921ea82d573d9b76b8b7f4648db819657691fe10b47df9f6670890b3d"
+    },
+    {
+      "path": "skills/exam-review/SKILL.md",
+      "sha256": "f37eb02764a1f832521c494b09baec9e57ef35fd3e55adf8653493ad7f04e777"
+    },
+    {
+      "path": "skills/exam-study-guide/SKILL.md",
+      "sha256": "bb48ba9875192e5208f922d21b3cc2c99d6c03c07ba466f135b8c9dbede89488"
+    },
+    {
+      "path": "skills/exam-tutor/SKILL.md",
+      "sha256": "b8f41a5ff53de916933fafacf049b469458a2b4418f23c5f2edab3ed3678a2b7"
+    }
+  ],
+  "schema_version": 1,
+  "skill": {
+    "name": "universal-exam-cram-coach",
+    "version": "4.3"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "current_phase": 1,
+  "scope": null,
+  "mode": "from_scratch",
+  "time_budget": "gt7d",
+  "language": "zh",
+  "artifact_mode": "chat",
+  "processing_mode": "full",
+  "answer_explanation_mode": "ordinary",
+  "preferences": {
+    "interaction_style": "batch"
+  },
+  "mistake_archive": [],
+  "confusion_log": [],
+  "knowledge_window": [],
+  "phase_checklist": [],
+  "phase_evidence": {},
+  "last_updated": "2026-08-15 18:54"
+}

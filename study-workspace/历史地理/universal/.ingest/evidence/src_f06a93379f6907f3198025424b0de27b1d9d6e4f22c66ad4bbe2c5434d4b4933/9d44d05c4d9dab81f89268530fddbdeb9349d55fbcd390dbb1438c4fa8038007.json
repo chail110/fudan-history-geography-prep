@@ -1,0 +1,19 @@
+{
+  "candidate": {
+    "pages": [
+      68
+    ],
+    "reason_codes": [
+      "repeated_characters"
+    ],
+    "source_file": "史地名词解释及真题参考答案.pdf",
+    "target_unit_ids": [
+      "unit_171516a1505467767e5fb5fa666a9249d83728ccd368837f56e208c0d3f7a7e5",
+      "unit_bc889338d40781f631a617430f8cfce26beb025721023a41b46e2aa6ae97fda4"
+    ]
+  },
+  "schema_version": 1,
+  "source_file": "史地名词解释及真题参考答案.pdf",
+  "source_id": "src_f06a93379f6907f3198025424b0de27b1d9d6e4f22c66ad4bbe2c5434d4b4933",
+  "source_sha256": "061f65e46a78daf7b1f6723c7d44ad3cc754db7970c870c1d7d434e4f10b5e76"
+}
