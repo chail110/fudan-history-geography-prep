@@ -65,3 +65,5 @@ docs/AUTORESEARCH-METHOD.md
 /tmp/universal-exam-temp-test*/
 /tmp/pyprobe*/
 /tmp/universal-material-hold/
+/tmp/skills-npm-cache/
+/tmp/classify_unrecognized_pdfs.py
