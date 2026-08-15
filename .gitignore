@@ -55,3 +55,13 @@ docs/AUTORESEARCH-METHOD.md
 
 # 本地学习记录（Engram FSRS 状态与闭卷复习凭据）
 /.study-data/
+
+# 用户确认的个人学习副本：仅供本机 Universal ExamPrep 使用，不进入 GitHub
+/materials/历史地理/专题补充资料/
+
+# Universal Windows 运行时临时目录（不属于课程资料）
+/tmp/universal-runtime/
+/tmp/universal-exam-temp*/
+/tmp/universal-exam-temp-test*/
+/tmp/pyprobe*/
+/tmp/universal-material-hold/

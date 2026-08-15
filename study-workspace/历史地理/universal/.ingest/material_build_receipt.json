@@ -1,21 +1,35 @@
 {
   "asset_role_promotion_count": 0,
   "asset_role_promotions_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-  "candidate_asset_policy_sha256": "ec50378bd1d3049f887a2bc71177c751d5afde3411f62cbcad9edc59a8f3953a",
+  "candidate_asset_policy_sha256": "3193f94d2eef96982ae82541cf39e49657e5c1dee69703f6ebced623481b8459",
   "completion": {
-    "recovery_logs": [],
+    "recovery_logs": [
+      {
+        "generation_id": "1b776570b319469343dbbf84d2c9a7f7d3157cfaf33f872a9bfb30aaa61cc3ed",
+        "outcome": "abandoned",
+        "path": ".ingest/material_build_recovery/1b776570b319469343dbbf84d2c9a7f7d3157cfaf33f872a9bfb30aaa61cc3ed.json",
+        "replacement_generation_id": "bb4681f0d6901eff5dfcff3ebf30544877c4d07853257abc22b7c51d5be25399"
+      },
+      {
+        "generation_id": "94fad676738697fa65d3ff45eb4f7e0a2a62d4c8c9d4a8aaee2049faebe59e79",
+        "outcome": "abandoned",
+        "path": ".ingest/material_build_recovery/94fad676738697fa65d3ff45eb4f7e0a2a62d4c8c9d4a8aaee2049faebe59e79.json",
+        "replacement_generation_id": "1b776570b319469343dbbf84d2c9a7f7d3157cfaf33f872a9bfb30aaa61cc3ed"
+      }
+    ],
     "schema_version": 1
   },
-  "generation_id": "a4440a41e7c47d1f27989054fc89621e313bdba64b01172b09593bf4d6b14358",
+  "generation_id": "bb4681f0d6901eff5dfcff3ebf30544877c4d07853257abc22b7c51d5be25399",
   "parse_report": {
     "path": ".ingest/parse_report.json",
-    "sha256": "40c02e4f79acdec9b8eebe4800b051f9aac96eba5fd4e8bb8b983041bc39b014"
+    "sha256": "a42ab066390a6c2142ddb133e27071d554103805545f6ba57f2e998f300a5ab4"
   },
-  "previous_build_manifest_sha256": null,
+  "previous_build_manifest_sha256": "adaf99127fd4d5a5bf943ad4aa5500776fc333f59eab5de3e0cb8c296148f497",
   "raw_input": {
     "path": ".ingest/source_raw_input.json",
-    "sha256": "6b4e1b73548250d252a97fa4c533416acbc6dfab89ee93266399f706d955347b"
+    "sha256": "50e0ed252864f0ca488b1cc181a844ab04d7c91facd76cc0172a5f5fe1d496fd"
   },
-  "schema_version": 1,
-  "status": "complete"
+  "schema_version": 2,
+  "status": "complete",
+  "supersedes_generation_id": "1b776570b319469343dbbf84d2c9a7f7d3157cfaf33f872a9bfb30aaa61cc3ed"
 }

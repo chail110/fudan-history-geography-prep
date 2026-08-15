@@ -1,15 +1,15 @@
 {
-  "course_name": "复旦历史地理学考研",
-  "current_teaching_example_ids": [],
-  "current_teaching_example_ids_by_chapter": {},
-  "missing_answer_ids": [],
-  "note": "missing_answer_ids 的题没有标准答案：测验前需补全，或由 AI 生成并向学生明确标注「⚠️ AI生成答案，非老师/教材提供」。",
+  "course_name": "复旦历史地理",
   "phases": 1,
   "quiz_bank": 0,
+  "teaching_examples": 0,
+  "current_teaching_example_ids": [],
+  "current_teaching_example_ids_by_chapter": {},
   "teaching_baseline_manifest": "references/teaching_baseline.json",
   "teaching_example_ids": [],
-  "teaching_example_ids_by_chapter": {},
-  "teaching_examples": 0,
   "teaching_examples_by_chapter": {},
-  "teaching_manifest_preserved_from_legacy_rerun": false
+  "teaching_example_ids_by_chapter": {},
+  "teaching_manifest_preserved_from_legacy_rerun": false,
+  "missing_answer_ids": [],
+  "note": "missing_answer_ids 的题没有标准答案：测验前需补全，或由 AI 生成并向学生明确标注「⚠️ AI生成答案，非老师/教材提供」。"
 }

@@ -4416,7 +4416,7 @@
   "inline_material_examples_detected": 0,
   "materials": "C:\\Users\\30374\\Documents\\ChatGPT\\考研\\materials\\历史地理",
   "pages_extracted": 232,
-  "pages_rendered": 1,
+  "pages_rendered": 0,
   "pairs_detected": 0,
   "pdf_text_methods": {
     "25考研史地所真题.pdf": [
@@ -4663,7 +4663,7 @@
   "quizzes_detected": 0,
   "skipped": [],
   "source_language_annotations": {
-    "elements_inferred": 5108,
+    "elements_inferred": 5107,
     "elements_language_neutral": 3,
     "elements_unresolved": 25,
     "pages_inferred": 226,

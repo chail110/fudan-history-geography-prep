@@ -1,0 +1,39 @@
+{
+  "generation_id": "94fad676738697fa65d3ff45eb4f7e0a2a62d4c8c9d4a8aaee2049faebe59e79",
+  "record_type": "material_runtime_recovery_log",
+  "records": [
+    {
+      "authorization": {
+        "action": "supersede",
+        "authorization_id": "76987a9b32b75f86776daaa6756212261bcc32289a7e83c256834543f61d1690",
+        "authorized_at": "2026-08-15T20:48:26Z",
+        "pending": {
+          "generation_id": "94fad676738697fa65d3ff45eb4f7e0a2a62d4c8c9d4a8aaee2049faebe59e79",
+          "path": ".ingest/material_build_pending.json",
+          "sha256": "242e07dd323cf0ea0e4309ee1d7a2af0970d9e8d20d8496797c839e9c54ba25c",
+          "supersedes_generation_id": null
+        },
+        "previous_runtime_receipt": {
+          "path": "exam_runtime_receipt.json",
+          "runtime_digest": "34c7ece26c390ef23edb958a6bd5aa0e842e81dc85ea900740afd61c92c89181",
+          "sha256": "357c9018fd4d6503dd692273909bdfed563a82ec9a2d0a2574e84a684023ec7d",
+          "state": "valid"
+        },
+        "record_type": "material_runtime_recovery",
+        "replacement_runtime_receipt": {
+          "path": "exam_runtime_receipt.json",
+          "runtime_digest": "34c7ece26c390ef23edb958a6bd5aa0e842e81dc85ea900740afd61c92c89181",
+          "sha256": "37ab184382b02fca7aabbdb10df34a60e796a18d25745f5624faddfc0a3c92a5",
+          "state": "valid"
+        },
+        "schema_version": 1
+      },
+      "outcome": {
+        "material_build_receipt_sha256": null,
+        "replacement_generation_id": "1b776570b319469343dbbf84d2c9a7f7d3157cfaf33f872a9bfb30aaa61cc3ed",
+        "status": "abandoned"
+      }
+    }
+  ],
+  "schema_version": 1
+}

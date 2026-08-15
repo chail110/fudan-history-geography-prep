@@ -6,7 +6,7 @@
     },
     "base_content_units": {
       "path": ".ingest/base_content_units.jsonl",
-      "sha256": "8959053910f1a6ed9c85e8c4b587f6bf9e52263f1fd5ccde9be4037d28c49a25"
+      "sha256": "791a3032c2b6b8b02f8f82a9dcb466ec20f0b92062ba4154b4e2fcae4588797a"
     },
     "canonical_groups": {
       "path": ".ingest/canonical_groups.jsonl",
@@ -18,7 +18,7 @@
     },
     "content_units": {
       "path": ".ingest/content_units.jsonl",
-      "sha256": "8959053910f1a6ed9c85e8c4b587f6bf9e52263f1fd5ccde9be4037d28c49a25"
+      "sha256": "791a3032c2b6b8b02f8f82a9dcb466ec20f0b92062ba4154b4e2fcae4588797a"
     },
     "duplicate_candidates": {
       "path": ".ingest/duplicate_candidates.jsonl",
@@ -26,11 +26,19 @@
     },
     "material_build_receipt": {
       "path": ".ingest/material_build_receipt.json",
-      "sha256": "a7e18579ae3ff738718bc563c6235e3bd9512573b6f0ce1176689529613fbe07"
+      "sha256": "e4e9b7c2740069d7e65b230873f09437a816fe601fec3099dfd4bed161c66a5b"
+    },
+    "material_build_recovery:1b776570b319469343dbbf84d2c9a7f7d3157cfaf33f872a9bfb30aaa61cc3ed": {
+      "path": ".ingest/material_build_recovery/1b776570b319469343dbbf84d2c9a7f7d3157cfaf33f872a9bfb30aaa61cc3ed.json",
+      "sha256": "2291036b8d3ced7d97cef3e84ecab5965e612eec6f711f55985b8dc61fbbdc2f"
+    },
+    "material_build_recovery:94fad676738697fa65d3ff45eb4f7e0a2a62d4c8c9d4a8aaee2049faebe59e79": {
+      "path": ".ingest/material_build_recovery/94fad676738697fa65d3ff45eb4f7e0a2a62d4c8c9d4a8aaee2049faebe59e79.json",
+      "sha256": "cacbfb83a98c1286830a41df1d04b265fdde626c5df6073ae5e340b49193776c"
     },
     "parse_report": {
       "path": ".ingest/parse_report.json",
-      "sha256": "40c02e4f79acdec9b8eebe4800b051f9aac96eba5fd4e8bb8b983041bc39b014"
+      "sha256": "a42ab066390a6c2142ddb133e27071d554103805545f6ba57f2e998f300a5ab4"
     },
     "parser_receipts": {
       "path": ".ingest/parser_receipts.json",
@@ -42,7 +50,7 @@
     },
     "review_queue": {
       "path": ".ingest/review_queue.jsonl",
-      "sha256": "8abd0b90d43fadb18f93a062571500aafdf4207d85710836a351eef5f56d6f0a"
+      "sha256": "1824e41a9cf800444962878edeaf7cbab2fac09f584a92dbed30ce52b8e2adcc"
     },
     "source_conflicts": {
       "path": ".ingest/source_conflicts.jsonl",
@@ -58,7 +66,7 @@
     },
     "source_raw_input": {
       "path": ".ingest/source_raw_input.json",
-      "sha256": "6b4e1b73548250d252a97fa4c533416acbc6dfab89ee93266399f706d955347b"
+      "sha256": "50e0ed252864f0ca488b1cc181a844ab04d7c91facd76cc0172a5f5fe1d496fd"
     },
     "unbound_review": {
       "path": ".ingest/unbound_review.json",
@@ -68,7 +76,7 @@
   "derived_artifacts": {
     "ingest_report": {
       "path": "ingest_report.json",
-      "sha256": "ad47c2ff3f805810c21c94a1b81ae7285221472c88cc88bbc1c89ae45d66cb16"
+      "sha256": "5a681f4899f103f80d336a98f31811aceb7801eb255656e0592c94c332070bba"
     },
     "quiz_bank": {
       "path": "references/quiz_bank.json",
@@ -76,7 +84,7 @@
     },
     "retrieval_index": {
       "path": "references/retrieval_index.json",
-      "sha256": "0f71c78d9f6f557f7cb791fd24fb502c19cb0631869a4b6fc6ea1e716f7b4919"
+      "sha256": "c0742ded12aa2e1bea2cd9a434b585cdaab8f2a905af431a92b68657e4c85183"
     },
     "teaching_baseline": {
       "path": "references/teaching_baseline.json",
@@ -88,7 +96,7 @@
     },
     "wiki:ch01": {
       "path": "references/wiki/ch01.md",
-      "sha256": "625fc0e9904ab0681dae714131201230475b9fc55dad91a9bb24f6d2a0317ee1"
+      "sha256": "b6f88f2ccb2dec0edd89beb79cc22f9b0c4aeea56bb888f34b17a431921b7dca"
     }
   },
   "fact_summary": {
@@ -113,7 +121,7 @@
     "source_conflict_count": 0,
     "source_priority_count": 8,
     "stats": {
-      "compatibility_bucket_count": 6,
+      "compatibility_bucket_count": 5,
       "exact_candidate_count": 107,
       "exact_fingerprint_group_count": 86,
       "near_candidate_count": 21,
@@ -132,22 +140,35 @@
   },
   "material_build": {
     "completion": {
-      "recovery_logs": [],
+      "recovery_logs": [
+        {
+          "generation_id": "1b776570b319469343dbbf84d2c9a7f7d3157cfaf33f872a9bfb30aaa61cc3ed",
+          "outcome": "abandoned",
+          "path": ".ingest/material_build_recovery/1b776570b319469343dbbf84d2c9a7f7d3157cfaf33f872a9bfb30aaa61cc3ed.json",
+          "replacement_generation_id": "bb4681f0d6901eff5dfcff3ebf30544877c4d07853257abc22b7c51d5be25399"
+        },
+        {
+          "generation_id": "94fad676738697fa65d3ff45eb4f7e0a2a62d4c8c9d4a8aaee2049faebe59e79",
+          "outcome": "abandoned",
+          "path": ".ingest/material_build_recovery/94fad676738697fa65d3ff45eb4f7e0a2a62d4c8c9d4a8aaee2049faebe59e79.json",
+          "replacement_generation_id": "1b776570b319469343dbbf84d2c9a7f7d3157cfaf33f872a9bfb30aaa61cc3ed"
+        }
+      ],
       "schema_version": 1
     },
-    "generation_id": "a4440a41e7c47d1f27989054fc89621e313bdba64b01172b09593bf4d6b14358",
+    "generation_id": "bb4681f0d6901eff5dfcff3ebf30544877c4d07853257abc22b7c51d5be25399",
     "parse_report": {
       "path": ".ingest/parse_report.json",
-      "sha256": "40c02e4f79acdec9b8eebe4800b051f9aac96eba5fd4e8bb8b983041bc39b014"
+      "sha256": "a42ab066390a6c2142ddb133e27071d554103805545f6ba57f2e998f300a5ab4"
     },
     "protocol_version": 2,
     "raw_input": {
       "path": ".ingest/source_raw_input.json",
-      "sha256": "6b4e1b73548250d252a97fa4c533416acbc6dfab89ee93266399f706d955347b"
+      "sha256": "50e0ed252864f0ca488b1cc181a844ab04d7c91facd76cc0172a5f5fe1d496fd"
     },
     "receipt": {
       "path": ".ingest/material_build_receipt.json",
-      "sha256": "a7e18579ae3ff738718bc563c6235e3bd9512573b6f0ce1176689529613fbe07"
+      "sha256": "e4e9b7c2740069d7e65b230873f09437a816fe601fec3099dfd4bed161c66a5b"
     }
   },
   "page_count": 232,
@@ -1516,11 +1537,9 @@
     },
     {
       "page": 61,
-      "reason_codes": [
-        "visual_heavy"
-      ],
-      "route": "recover",
-      "score": 0.88,
+      "reason_codes": [],
+      "route": "fast",
+      "score": 1.0,
       "source_file": "史地名词解释及真题参考答案.pdf"
     },
     {

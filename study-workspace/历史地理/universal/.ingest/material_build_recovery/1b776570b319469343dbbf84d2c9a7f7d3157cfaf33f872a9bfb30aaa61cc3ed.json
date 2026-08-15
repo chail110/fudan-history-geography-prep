@@ -1,0 +1,39 @@
+{
+  "generation_id": "1b776570b319469343dbbf84d2c9a7f7d3157cfaf33f872a9bfb30aaa61cc3ed",
+  "record_type": "material_runtime_recovery_log",
+  "records": [
+    {
+      "authorization": {
+        "action": "supersede",
+        "authorization_id": "b4e350e25d4166888d3ead5060c9d490e7da34656cef2835414a62f5504639d7",
+        "authorized_at": "2026-08-15T20:55:33Z",
+        "pending": {
+          "generation_id": "1b776570b319469343dbbf84d2c9a7f7d3157cfaf33f872a9bfb30aaa61cc3ed",
+          "path": ".ingest/material_build_pending.json",
+          "sha256": "ca906efb6fde2992b713622ba5b96a6a03150a01c91af12e915ddf9db6a79287",
+          "supersedes_generation_id": "94fad676738697fa65d3ff45eb4f7e0a2a62d4c8c9d4a8aaee2049faebe59e79"
+        },
+        "previous_runtime_receipt": {
+          "path": "exam_runtime_receipt.json",
+          "runtime_digest": "34c7ece26c390ef23edb958a6bd5aa0e842e81dc85ea900740afd61c92c89181",
+          "sha256": "37ab184382b02fca7aabbdb10df34a60e796a18d25745f5624faddfc0a3c92a5",
+          "state": "valid"
+        },
+        "record_type": "material_runtime_recovery",
+        "replacement_runtime_receipt": {
+          "path": "exam_runtime_receipt.json",
+          "runtime_digest": "34c7ece26c390ef23edb958a6bd5aa0e842e81dc85ea900740afd61c92c89181",
+          "sha256": "2f1666ab614416c395670879d44a6ccbb986b719e4dea0f4e4cb2d933a37cc0c",
+          "state": "valid"
+        },
+        "schema_version": 1
+      },
+      "outcome": {
+        "material_build_receipt_sha256": null,
+        "replacement_generation_id": "bb4681f0d6901eff5dfcff3ebf30544877c4d07853257abc22b7c51d5be25399",
+        "status": "abandoned"
+      }
+    }
+  ],
+  "schema_version": 1
+}
