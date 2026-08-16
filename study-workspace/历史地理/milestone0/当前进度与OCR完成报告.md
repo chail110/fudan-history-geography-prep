@@ -21,9 +21,13 @@ DSH Desktop OCR 队列已经完成。空文本页经独立复扫后确认主要�
 
 ## 输出位置
 
-DSH 原始输出（不在 Git 仓库）：
+DSH 原始输出已完整归档到 Git 仓库：
 
 `D:\workspace\历史地理\ocr\deepseek-harness`
+
+仓库内对应路径：
+
+`study-workspace/历史地理/ocr/archive/deepseek-harness`
 
 独立空页复扫结果（不覆盖 DSH）：
 
