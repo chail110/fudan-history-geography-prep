@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Fudan History Geography KnowledgeNode",
+  "type": "object",
+  "required": [
+    "knowledge_id",
+    "title",
+    "course_id",
+    "module_id",
+    "lesson_ids",
+    "syllabus_ids",
+    "definition",
+    "time_scope",
+    "spatial_scope",
+    "importance",
+    "skills",
+    "evidence_ids",
+    "verification_status",
+    "confidence",
+    "teaching_status"
+  ],
+  "properties": {
+    "knowledge_id": {"type": "string", "pattern": "^KN-[A-Z]+-[0-9]{2}$"},
+    "title": {"type": "string", "minLength": 1},
+    "course_id": {"enum": ["COURSE-HG", "COURSE-CN"]},
+    "module_id": {"type": "string", "pattern": "^MOD-(HG|CN)-[0-9]{2}$"},
+    "lesson_ids": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "syllabus_ids": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "definition": {"type": "string"},
+    "time_scope": {"type": "string"},
+    "spatial_scope": {"type": "string"},
+    "importance": {"enum": ["A+", "A", "B", "C", "official_keep"]},
+    "skills": {
+      "type": "array",
+      "items": {"enum": ["SOURCE", "JUDOU", "TRANSLATION", "MAP", "CHRONOLOGY", "CHANGE", "COMPARE", "EVIDENCE", "ARGUMENT", "ACADEMIC"]}
+    },
+    "evidence_ids": {"type": "array", "items": {"type": "string"}},
+    "verification_status": {"enum": ["verified", "needs_review", "disputed", "unavailable"]},
+    "confidence": {"enum": ["high", "medium", "low"]},
+    "teaching_status": {"enum": ["DRAFT", "TEACHABLE", "BLOCKED"]},
+    "notes": {"type": "string"}
+  },
+  "additionalProperties": false
+}
