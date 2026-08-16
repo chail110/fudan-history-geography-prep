@@ -1,0 +1,37 @@
+[2026-08-16T17:24:28+08:00] Waiting for current 40-PDF worker to finish before crosscheck OCR...
+[2026-08-16T18:04:06+08:00] Current worker appears finished. Starting crosscheck.
+[INFO] 2026-08-16 18:04:07,805 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-08-16 18:04:07,809 [RapidOCR] main.py:63: Using D:\workspace\ocr-venv\Lib\site-packages\rapid_doc\resources\PP-OCRv6_det_small.onnx
+[INFO] 2026-08-16 18:04:08,238 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-08-16 18:04:08,242 [RapidOCR] download_file.py:60: File exists and is valid: D:\workspace\ocr-venv\Lib\site-packages\rapidocr\models\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-08-16 18:04:08,242 [RapidOCR] main.py:63: Using D:\workspace\ocr-venv\Lib\site-packages\rapidocr\models\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-08-16 18:04:08,277 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-08-16 18:04:08,277 [RapidOCR] main.py:63: Using D:\workspace\ocr-venv\Lib\site-packages\rapid_doc\resources\PP-OCRv6_rec_small.onnx
+[2026-08-16T18:04:08+08:00] GPU info: {"device": "cuda", "fallback_reason": null, "gpu_name": "NVIDIA GeForce RTX 3080 Laptop GPU", "gpu_total_mem_gb": 16.0, "ort_version": "1.23.0", "ort_available_providers": ["TensorrtExecutionProvider", "CUDAExecutionProvider", "CPUExecutionProvider"], "ocr_actual_providers": ["CUDAExecutionProvider", "CPUExecutionProvider"], "engine": "RapidOCR PP-OCRv6 small ONNX", "dpi": 200, "note": "torch not imported in OCR worker to avoid onnxruntime CUDA slowdown"}
+[WARNING] 2026-08-16 18:04:14,963 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 18:04:34,950 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 18:04:46,113 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 18:04:46,621 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 18:05:09,487 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 18:05:09,996 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 18:05:28,909 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 18:05:29,413 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 18:05:46,052 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 18:05:46,563 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 18:06:01,338 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 18:06:01,954 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 18:06:20,352 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 18:06:20,857 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 18:06:34,170 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 18:06:47,836 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 18:06:58,567 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 18:07:09,311 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 18:07:19,611 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 18:07:20,136 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 18:07:33,129 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 18:07:45,196 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 18:07:45,817 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 18:08:04,173 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 18:08:04,792 [RapidOCR] main.py:132: The text detection result is empty
+[2026-08-16T18:08:32+08:00] comparison report written: D:\workspace\历史地理\ocr\deepseek-harness\crosscheck\中国历史政治地理十六讲_下载版\comparison_report.md
+[2026-08-16T18:08:32+08:00] CROSSCHECK DONE

@@ -1,0 +1,198 @@
+[INFO] 2026-08-16 11:04:46,092 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-08-16 11:04:46,095 [RapidOCR] main.py:63: Using D:\workspace\ocr-venv\Lib\site-packages\rapid_doc\resources\PP-OCRv6_det_small.onnx
+[INFO] 2026-08-16 11:04:46,419 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-08-16 11:04:46,422 [RapidOCR] download_file.py:60: File exists and is valid: D:\workspace\ocr-venv\Lib\site-packages\rapidocr\models\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-08-16 11:04:46,422 [RapidOCR] main.py:63: Using D:\workspace\ocr-venv\Lib\site-packages\rapidocr\models\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-08-16 11:04:46,464 [RapidOCR] base.py:23: Using engine_name: onnxruntime
+[INFO] 2026-08-16 11:04:46,464 [RapidOCR] main.py:63: Using D:\workspace\ocr-venv\Lib\site-packages\rapid_doc\resources\PP-OCRv6_rec_small.onnx
+[2026-08-16T11:04:46+08:00] GPU info: {"device": "cuda", "fallback_reason": null, "gpu_name": "NVIDIA GeForce RTX 3080 Laptop GPU", "gpu_total_mem_gb": 16.0, "ort_version": "1.23.0", "ort_available_providers": ["TensorrtExecutionProvider", "CUDAExecutionProvider", "CPUExecutionProvider"], "ocr_actual_providers": ["CUDAExecutionProvider", "CPUExecutionProvider"], "engine": "RapidOCR PP-OCRv6 small ONNX", "dpi": 200, "note": "torch not imported in OCR worker to avoid onnxruntime CUDA slowdown"}
+[2026-08-16T11:04:46+08:00] [1/40] start [中国移民史] 吴松弟 - 中国移民史 第3卷 (1997, 福建人民出版社) - libgen.li.pdf
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+[2026-08-16T11:04:46+08:00] processing [中国移民史] 吴松弟 - 中国移民史 第3卷 (1997, 福建人民出版社) - libgen.li.pdf pages=422
+[WARNING] 2026-08-16 11:07:06,731 [RapidOCR] main.py:132: The text detection result is empty
+[2026-08-16T11:07:07+08:00] [2/40] start [中国移民史] 曹树基 - 中国移民史 第2卷 (1997, 福建人民出版社) - libgen.li.pdf
+[2026-08-16T11:07:07+08:00] processing [中国移民史] 曹树基 - 中国移民史 第2卷 (1997, 福建人民出版社) - libgen.li.pdf pages=625
+[2026-08-16T11:15:13+08:00] [3/40] start [中国移民史] 曹树基 - 中国移民史 第5卷 (1997, 福建人民出版社) - libgen.li.pdf
+[2026-08-16T11:15:13+08:00] processing [中国移民史] 曹树基 - 中国移民史 第5卷 (1997, 福建人民出版社) - libgen.li.pdf pages=588
+[WARNING] 2026-08-16 11:25:39,197 [RapidOCR] main.py:132: The text detection result is empty
+[2026-08-16T11:25:39+08:00] [4/40] start [中国移民史] 葛剑雄 - 中国移民史 第1卷 (1997, 福建人民出版社) - libgen.li.pdf
+[2026-08-16T11:25:39+08:00] processing [中国移民史] 葛剑雄 - 中国移民史 第1卷 (1997, 福建人民出版社) - libgen.li.pdf pages=415
+[WARNING] 2026-08-16 11:25:50,845 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 11:28:45,463 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 11:28:46,552 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 11:32:36,670 [RapidOCR] main.py:132: The text detection result is empty
+[2026-08-16T11:32:37+08:00] [5/40] start [中国行政区划通史 - 中国行政区划通史] 中国行政区划通史 五代十国卷 下{李晓杰}(2017, 复旦大学出版社){112849546} libgen.li.pdf
+[2026-08-16T11:32:37+08:00] processing [中国行政区划通史 - 中国行政区划通史] 中国行政区划通史 五代十国卷 下{李晓杰}(2017, 复旦大学出版社){112849546} libgen.li.pdf pages=593
+[WARNING] 2026-08-16 11:35:54,008 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 11:36:18,420 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 11:40:40,148 [RapidOCR] main.py:132: The text detection result is empty
+[2026-08-16T11:40:56+08:00] [6/40] start [中国行政区划通史 - 中国行政区划通史] 中国行政区划通史 元代卷 修订本{李治安,薛磊}(2017, 复旦大学出版社){112849548} libgen.li.pdf
+[2026-08-16T11:40:56+08:00] processing [中国行政区划通史 - 中国行政区划通史] 中国行政区划通史 元代卷 修订本{李治安,薛磊}(2017, 复旦大学出版社){112849548} libgen.li.pdf pages=399
+[WARNING] 2026-08-16 11:46:19,281 [RapidOCR] main.py:132: The text detection result is empty
+[2026-08-16T11:46:56+08:00] [7/40] start [中国行政区划通史 - 中国行政区划通史] 中国行政区划通史 宋西夏卷 修订本{李宪昌}(2017, 复旦大学出版社){113003218} libgen.li.pdf
+[2026-08-16T11:46:56+08:00] processing [中国行政区划通史 - 中国行政区划通史] 中国行政区划通史 宋西夏卷 修订本{李宪昌}(2017, 复旦大学出版社){113003218} libgen.li.pdf pages=825
+[WARNING] 2026-08-16 11:47:21,243 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 11:47:21,790 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 11:48:57,403 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 11:54:19,690 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 11:55:24,312 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 11:56:55,803 [RapidOCR] main.py:132: The text detection result is empty
+[2026-08-16T11:58:26+08:00] [8/40] start [中国行政区划通史 - 中国行政区划通史] 中国行政区划通史 明代卷 第2版{郭红,靳润成}(2017, 复旦大学出版社){113003221} libgen.li.pdf
+[2026-08-16T11:58:26+08:00] processing [中国行政区划通史 - 中国行政区划通史] 中国行政区划通史 明代卷 第2版{郭红,靳润成}(2017, 复旦大学出版社){113003221} libgen.li.pdf pages=987
+[WARNING] 2026-08-16 11:58:44,028 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 12:02:10,886 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 12:09:07,556 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 12:10:45,793 [RapidOCR] main.py:132: The text detection result is empty
+[2026-08-16T12:12:30+08:00] [9/40] start [中国行政区划通史 - 中国行政区划通史] 中国行政区划通史 清代卷 修订本{傅林祥,林涓,任玉雪,王卫东}(2017){113003223} libgen.li.pdf
+[2026-08-16T12:12:30+08:00] processing [中国行政区划通史 - 中国行政区划通史] 中国行政区划通史 清代卷 修订本{傅林祥,林涓,任玉雪,王卫东}(2017){113003223} libgen.li.pdf pages=818
+[WARNING] 2026-08-16 12:12:54,459 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 12:12:54,996 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 12:14:13,523 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 12:14:14,063 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 12:23:48,068 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 12:23:48,600 [RapidOCR] main.py:132: The text detection result is empty
+[2026-08-16T12:25:11+08:00] [10/40] start [中国行政区划通史 - 中国行政区划通史] 中国行政区划通史 辽金卷 修订本{余蔚}(2017, 复旦大学出版社){113003219} libgen.li.pdf
+[2026-08-16T12:25:11+08:00] processing [中国行政区划通史 - 中国行政区划通史] 中国行政区划通史 辽金卷 修订本{余蔚}(2017, 复旦大学出版社){113003219} libgen.li.pdf pages=977
+[WARNING] 2026-08-16 12:25:45,072 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 12:27:31,053 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 12:31:59,840 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 12:32:00,376 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 12:34:49,037 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 12:34:49,554 [RapidOCR] main.py:132: The text detection result is empty
+[2026-08-16T12:40:10+08:00] [11/40] start [国学专题课] 周振鹤 - 中国历史政治地理十六讲 (2013, 中华书局) - libgen.li.pdf
+[2026-08-16T12:40:10+08:00] processing [国学专题课] 周振鹤 - 中国历史政治地理十六讲 (2013, 中华书局) - libgen.li.pdf pages=336
+[WARNING] 2026-08-16 12:40:16,877 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 12:40:36,927 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 12:40:48,145 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 12:40:48,658 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 12:41:11,529 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 12:41:12,042 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 12:41:31,060 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 12:41:31,566 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 12:41:48,189 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 12:41:48,696 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 12:42:03,575 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 12:42:04,189 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 12:42:22,623 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 12:42:23,128 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 12:42:36,498 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 12:42:50,187 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 12:43:00,991 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 12:43:11,763 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 12:43:22,112 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 12:43:22,624 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 12:43:35,675 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 12:43:47,764 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 12:43:48,386 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 12:44:06,803 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 12:44:07,422 [RapidOCR] main.py:132: The text detection result is empty
+[2026-08-16T12:44:27+08:00] [12/40] start 《中国人口史 第五卷 清时期》{葛劍雄}{113756688} libgen.li.pdf
+[2026-08-16T12:44:27+08:00] processing 《中国人口史 第五卷 清时期》{葛劍雄}{113756688} libgen.li.pdf pages=1008
+[2026-08-16T12:58:32+08:00] [13/40] start 【中国移民史】第四卷 辽宋金元时期{吴松弟}(2009){106983882} libgen.li.pdf
+[2026-08-16T12:58:32+08:00] processing 【中国移民史】第四卷 辽宋金元时期{吴松弟}(2009){106983882} libgen.li.pdf pages=707
+[WARNING] 2026-08-16 13:08:02,130 [RapidOCR] main.py:132: The text detection result is empty
+[2026-08-16T13:08:02+08:00] [14/40] start 中国人口史 第1卷 导论、先秦至南北朝时期{葛剑雄著}{113756692} libgen.li.pdf
+[2026-08-16T13:08:02+08:00] processing 中国人口史 第1卷 导论、先秦至南北朝时期{葛剑雄著}{113756692} libgen.li.pdf pages=698
+[2026-08-16T13:17:35+08:00] [15/40] start 中国人口史 第3卷 導論、先秦到南北朝时期{葛剑雄主编}{113756689} libgen.li.pdf
+[2026-08-16T13:17:35+08:00] processing 中国人口史 第3卷 導論、先秦到南北朝时期{葛剑雄主编}{113756689} libgen.li.pdf pages=698
+[2026-08-16T13:27:05+08:00] [16/40] start 中国人口史 第6卷 1910-1953年{葛剑雄主编}{113756690} libgen.li.pdf
+[2026-08-16T13:27:05+08:00] processing 中国人口史 第6卷 1910-1953年{葛剑雄主编}{113756690} libgen.li.pdf pages=686
+[WARNING] 2026-08-16 13:27:08,024 [RapidOCR] main.py:132: The text detection result is empty
+[2026-08-16T13:36:49+08:00] [17/40] start 中国人口史 第二卷 隋唐五代时期{葛剑雄主编}{113756696} libgen.li.pdf
+[2026-08-16T13:36:49+08:00] processing 中国人口史 第二卷 隋唐五代时期{葛剑雄主编}{113756696} libgen.li.pdf pages=691
+[2026-08-16T13:52:19+08:00] [18/40] start 中国人口史 （第四卷） 明时期{葛劍雄}{114062951} libgen.li.pdf
+[2026-08-16T13:52:19+08:00] processing 中国人口史 （第四卷） 明时期{葛劍雄}{114062951} libgen.li.pdf pages=548
+[2026-08-16T14:12:05+08:00] [19/40] start 中国行政区划通史 三国两晋南朝卷 上 (胡阿祥,孔祥军,徐成) (z-library.sk, 1lib.sk, z-lib.sk).pdf
+[2026-08-16T14:12:05+08:00] processing 中国行政区划通史 三国两晋南朝卷 上 (胡阿祥,孔祥军,徐成) (z-library.sk, 1lib.sk, z-lib.sk).pdf pages=931
+[WARNING] 2026-08-16 14:13:22,839 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 14:18:33,820 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 14:23:27,941 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 14:23:28,817 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 14:28:36,391 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 14:28:36,941 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 14:31:35,358 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 14:31:35,897 [RapidOCR] main.py:132: The text detection result is empty
+[2026-08-16T14:33:20+08:00] [20/40] start 中国行政区划通史 三国两晋南朝卷 下 (胡阿祥,孔祥军,徐成) (z-library.sk, 1lib.sk, z-lib.sk).pdf
+[2026-08-16T14:33:20+08:00] processing 中国行政区划通史 三国两晋南朝卷 下 (胡阿祥,孔祥军,徐成) (z-library.sk, 1lib.sk, z-lib.sk).pdf pages=833
+[WARNING] 2026-08-16 14:35:10,277 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 14:35:10,762 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 14:36:43,012 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 14:36:43,503 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 14:39:32,701 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 14:39:33,190 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 14:41:51,894 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 14:44:47,766 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 14:44:48,457 [RapidOCR] main.py:132: The text detection result is empty
+[2026-08-16T14:45:46+08:00] [21/40] start 中国行政区划通史 五代十国卷 上 第2版 (李晓杰) (z-library.sk, 1lib.sk, z-lib.sk).pdf
+[2026-08-16T14:45:46+08:00] processing 中国行政区划通史 五代十国卷 上 第2版 (李晓杰) (z-library.sk, 1lib.sk, z-lib.sk).pdf pages=577
+[WARNING] 2026-08-16 14:46:27,637 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 14:51:28,746 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 14:51:29,242 [RapidOCR] main.py:132: The text detection result is empty
+[2026-08-16T14:55:15+08:00] [22/40] start 中国行政区划通史 十六国北朝卷 上 (牟发松,毋有江,魏俊杰) (z-library.sk, 1lib.sk, z-lib.sk).pdf
+[2026-08-16T14:55:16+08:00] processing 中国行政区划通史 十六国北朝卷 上 (牟发松,毋有江,魏俊杰) (z-library.sk, 1lib.sk, z-lib.sk).pdf pages=631
+[WARNING] 2026-08-16 14:55:55,883 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 15:03:21,324 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 15:03:21,819 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 15:05:41,015 [RapidOCR] main.py:132: The text detection result is empty
+[2026-08-16T15:05:42+08:00] [23/40] start 中国行政区划通史 十六国北朝卷 下 第2版 (周振鹤主编；牟发松，毋有江，魏俊杰著, 周振鹤主编,牟发松,毋有江,魏俊杰著, 周振鹤 etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf
+[2026-08-16T15:05:42+08:00] processing 中国行政区划通史 十六国北朝卷 下 第2版 (周振鹤主编；牟发松，毋有江，魏俊杰著, 周振鹤主编,牟发松,毋有江,魏俊杰著, 周振鹤 etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf pages=761
+[WARNING] 2026-08-16 15:13:30,348 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 15:13:30,980 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 15:17:07,465 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 15:17:08,125 [RapidOCR] main.py:132: The text detection result is empty
+[2026-08-16T15:19:16+08:00] [24/40] start 中国行政区划通史 唐代卷 上 (郭声波) (z-library.sk, 1lib.sk, z-lib.sk).pdf
+[2026-08-16T15:19:16+08:00] processing 中国行政区划通史 唐代卷 上 (郭声波) (z-library.sk, 1lib.sk, z-lib.sk).pdf pages=781
+[WARNING] 2026-08-16 15:19:54,680 [RapidOCR] main.py:132: The text detection result is empty
+[2026-08-16T15:46:52+08:00] [25/40] start 中国行政区划通史 唐代卷 下 (郭声波,周振鹤) (z-library.sk, 1lib.sk, z-lib.sk).pdf
+[2026-08-16T15:46:52+08:00] processing 中国行政区划通史 唐代卷 下 (郭声波,周振鹤) (z-library.sk, 1lib.sk, z-lib.sk).pdf pages=847
+[WARNING] 2026-08-16 15:52:44,122 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 15:52:44,740 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 15:58:57,433 [RapidOCR] main.py:132: The text detection result is empty
+[2026-08-16T16:02:13+08:00] [26/40] start 中国行政区划通史 总论 先秦卷 修订本 (周振鹤,李晓杰) (z-library.sk, 1lib.sk, z-lib.sk).pdf
+[2026-08-16T16:02:13+08:00] processing 中国行政区划通史 总论 先秦卷 修订本 (周振鹤,李晓杰) (z-library.sk, 1lib.sk, z-lib.sk).pdf pages=712
+[WARNING] 2026-08-16 16:02:28,921 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 16:05:52,324 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 16:05:52,839 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 16:05:56,997 [RapidOCR] main.py:132: The text detection result is empty
+[2026-08-16T16:14:47+08:00] [27/40] start 中国行政区划通史 秦汉卷 上 (周振鹤,李晓杰,张莉) (z-library.sk, 1lib.sk, z-lib.sk).pdf
+[2026-08-16T16:14:48+08:00] processing 中国行政区划通史 秦汉卷 上 (周振鹤,李晓杰,张莉) (z-library.sk, 1lib.sk, z-lib.sk).pdf pages=614
+[WARNING] 2026-08-16 16:14:49,231 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 16:15:03,014 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 16:16:40,932 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 16:16:41,428 [RapidOCR] main.py:132: The text detection result is empty
+[2026-08-16T16:24:01+08:00] [28/40] start 中国行政区划通史 秦汉卷 下 (周振鹤,李晓杰,张莉) (z-library.sk, 1lib.sk, z-lib.sk).pdf
+[2026-08-16T16:24:01+08:00] processing 中国行政区划通史 秦汉卷 下 (周振鹤,李晓杰,张莉) (z-library.sk, 1lib.sk, z-lib.sk).pdf pages=590
+[WARNING] 2026-08-16 16:24:07,697 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 16:31:44,695 [RapidOCR] main.py:132: The text detection result is empty
+[2026-08-16T16:33:37+08:00] [29/40] start 中国行政区划通史 隋代卷 第2版 (施和金) (z-library.sk, 1lib.sk, z-lib.sk).pdf
+[2026-08-16T16:33:37+08:00] processing 中国行政区划通史 隋代卷 第2版 (施和金) (z-library.sk, 1lib.sk, z-lib.sk).pdf pages=596
+[WARNING] 2026-08-16 16:34:16,644 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 16:35:53,342 [RapidOCR] main.py:132: The text detection result is empty
+[WARNING] 2026-08-16 16:51:01,512 [RapidOCR] main.py:132: The text detection result is empty
+[2026-08-16T16:51:44+08:00] [30/40] start 安介生 - 历史民族地理 上 - libgen.li.pdf
+[2026-08-16T16:51:44+08:00] processing 安介生 - 历史民族地理 上 - libgen.li.pdf pages=475
+[2026-08-16T17:05:09+08:00] [31/40] start 安介生著 - 历史民族地理 （下册） - libgen.li.pdf
+[2026-08-16T17:05:09+08:00] processing 安介生著 - 历史民族地理 （下册） - libgen.li.pdf pages=473
+[2026-08-16T17:19:06+08:00] [32/40] start 曹树基 - 中国移民史（第6卷） 6 (1997, 福建教育出版社) - libgen.li.pdf
+[2026-08-16T17:19:06+08:00] processing 曹树基 - 中国移民史（第6卷） 6 (1997, 福建教育出版社) - libgen.li.pdf pages=676
+[WARNING] 2026-08-16 17:31:20,142 [RapidOCR] main.py:132: The text detection result is empty
+[2026-08-16T17:31:20+08:00] [33/40] start 谭其骧 - 长水集 上 (1987, 人民出版社) - libgen.li.pdf
+[2026-08-16T17:31:20+08:00] processing 谭其骧 - 长水集 上 (1987, 人民出版社) - libgen.li.pdf pages=524
+[WARNING] 2026-08-16 17:31:44,939 [RapidOCR] main.py:132: The text detection result is empty
+[2026-08-16T17:43:10+08:00] [34/40] start 谭其骧 - 长水集 下 (1987, 人民出版社) - libgen.li.pdf
+[2026-08-16T17:43:10+08:00] processing 谭其骧 - 长水集 下 (1987, 人民出版社) - libgen.li.pdf pages=448
+[2026-08-16T17:53:27+08:00] [35/40] start 黄河史论丛{谭其骧主编}(1986, 上海：复旦大学出版社){115375592} libgen.li.pdf
+[2026-08-16T17:53:27+08:00] processing 黄河史论丛{谭其骧主编}(1986, 上海：复旦大学出版社){115375592} libgen.li.pdf pages=257
+[2026-08-16T17:56:23+08:00] [36/40] start 黄淮海平原历史地理{邹逸麟}{114493053} libgen.li.pdf
+[2026-08-16T17:56:23+08:00] processing 黄淮海平原历史地理{邹逸麟}{114493053} libgen.li.pdf pages=361
+[WARNING] 2026-08-16 17:59:54,319 [RapidOCR] main.py:132: The text detection result is empty
+[2026-08-16T18:02:33+08:00] [37/40] start 中国历史地理-名词解析简答.pdf
+[2026-08-16T18:02:33+08:00] processing 中国历史地理-名词解析简答.pdf pages=12
+[2026-08-16T18:02:44+08:00] [38/40] start 中国历史地理各种题.pdf
+[2026-08-16T18:02:44+08:00] processing 中国历史地理各种题.pdf pages=59
+[2026-08-16T18:03:43+08:00] [39/40] start 中国历史地理试题（简答题）.pdf
+[2026-08-16T18:03:43+08:00] processing 中国历史地理试题（简答题）.pdf pages=11
+[2026-08-16T18:03:53+08:00] [40/40] start 中国历史地理试题（选择题）.pdf
+[2026-08-16T18:03:53+08:00] processing 中国历史地理试题（选择题）.pdf pages=4
+[WARNING] 2026-08-16 18:03:55,853 [RapidOCR] main.py:132: The text detection result is empty
+[2026-08-16T18:03:55+08:00] ALL DONE {"timestamp": "2026-08-16T18:03:55+08:00", "total_pdfs": 40, "completed_pdfs": 40, "failed_pdfs": 0, "done_pages": 23190, "failed_pages": 0, "current_file": "中国历史地理试题（选择题）.pdf", "gpu": {"device": "cuda", "fallback_reason": null, "gpu_name": "NVIDIA GeForce RTX 3080 Laptop GPU", "gpu_total_mem_gb": 16.0, "ort_version": "1.23.0", "ort_available_providers": ["TensorrtExecutionProvider", "CUDAExecutionProvider", "CPUExecutionProvider"], "ocr_actual_providers": ["CUDAExecutionProvider", "CPUExecutionProvider"], "engine": "RapidOCR PP-OCRv6 small ONNX", "dpi": 200, "note": "torch not imported in OCR worker to avoid onnxruntime CUDA slowdown"}, "output_root": "D:\\workspace\\历史地理\\ocr\\deepseek-harness", "pending_review": []}

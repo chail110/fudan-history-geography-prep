@@ -1,0 +1,15 @@
+{
+  "source_path": "C:\\Users\\30374\\Downloads\\中国历史政治地理十六讲 (周振鹤) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+  "filename": "中国历史政治地理十六讲 (周振鹤) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+  "sha256": "f41e82688e3159d3597b815b4b6ce0f96ad69412694503561ea00602d78bed88",
+  "size_bytes": 69859456,
+  "actual_pages": 336,
+  "status": "completed",
+  "output_dir": "D:\\workspace\\历史地理\\ocr\\deepseek-harness\\crosscheck\\中国历史政治地理十六讲_下载版",
+  "docx_path": "D:\\workspace\\历史地理\\ocr\\deepseek-harness\\crosscheck\\中国历史政治地理十六讲_下载版\\output.docx",
+  "gpu_provider": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "completed_at": "2026-08-16T18:08:24+08:00"
+}

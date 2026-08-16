@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-08-16T12:29:45+08:00",
+  "total_pdfs": 40,
+  "completed_pdfs": 9,
+  "failed_pdfs": 0,
+  "done_pages": 5968,
+  "failed_pages": 0,
+  "current_file": "[中国行政区划通史 - 中国行政区划通史] 中国行政区划通史 辽金卷 修订本{余蔚}(2017, 复旦大学出版社){113003219} libgen.li.pdf",
+  "gpu": {
+    "device": "cuda",
+    "fallback_reason": null,
+    "gpu_name": "NVIDIA GeForce RTX 3080 Laptop GPU",
+    "gpu_total_mem_gb": 16.0,
+    "ort_version": "1.23.0",
+    "ort_available_providers": [
+      "TensorrtExecutionProvider",
+      "CUDAExecutionProvider",
+      "CPUExecutionProvider"
+    ],
+    "ocr_actual_providers": [
+      "CUDAExecutionProvider",
+      "CPUExecutionProvider"
+    ],
+    "engine": "RapidOCR PP-OCRv6 small ONNX",
+    "dpi": 200,
+    "note": "torch not imported in OCR worker to avoid onnxruntime CUDA slowdown"
+  },
+  "output_root": "D:\\workspace\\历史地理\\ocr\\deepseek-harness",
+  "pending_review": []
+}

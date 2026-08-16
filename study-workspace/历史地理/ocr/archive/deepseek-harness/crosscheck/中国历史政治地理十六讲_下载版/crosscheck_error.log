@@ -1,0 +1,5 @@
+[2026-08-16T17:24:28+08:00] Waiting for current 40-PDF worker to finish before crosscheck OCR...
+[2026-08-16T18:04:06+08:00] Current worker appears finished. Starting crosscheck.
+[2026-08-16T18:04:08+08:00] GPU info: {"device": "cuda", "fallback_reason": null, "gpu_name": "NVIDIA GeForce RTX 3080 Laptop GPU", "gpu_total_mem_gb": 16.0, "ort_version": "1.23.0", "ort_available_providers": ["TensorrtExecutionProvider", "CUDAExecutionProvider", "CPUExecutionProvider"], "ocr_actual_providers": ["CUDAExecutionProvider", "CPUExecutionProvider"], "engine": "RapidOCR PP-OCRv6 small ONNX", "dpi": 200, "note": "torch not imported in OCR worker to avoid onnxruntime CUDA slowdown"}
+[2026-08-16T18:08:32+08:00] comparison report written: D:\workspace\历史地理\ocr\deepseek-harness\crosscheck\中国历史政治地理十六讲_下载版\comparison_report.md
+[2026-08-16T18:08:32+08:00] CROSSCHECK DONE

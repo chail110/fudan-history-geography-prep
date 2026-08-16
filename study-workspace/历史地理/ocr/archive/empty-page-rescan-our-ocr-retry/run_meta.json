@@ -1,0 +1,24 @@
+{
+  "created_at": "2026-08-16T19:03:24+0800",
+  "method": "independent_local_rapidocr_rescan",
+  "target_policy": "all DSH page_text files whose stripped text is empty",
+  "include_crosscheck": true,
+  "target_books": 1,
+  "target_pages": 2,
+  "engine": {
+    "engine": "RapidOCR PP-OCRv6 small ONNX (independent rescan)",
+    "dpi": 300,
+    "available_providers": [
+      "TensorrtExecutionProvider",
+      "CUDAExecutionProvider",
+      "CPUExecutionProvider"
+    ],
+    "actual_providers": [
+      "CUDAExecutionProvider",
+      "CPUExecutionProvider"
+    ],
+    "preprocess": "300dpi RGB; retry with grayscale autocontrast and 1.5x upscale if first pass is empty/low-confidence"
+  },
+  "source_outputs_unchanged": true,
+  "formal_universal_exam_prep_ingest": false
+}

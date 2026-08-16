@@ -1,0 +1,9 @@
+{
+  "target_books": 1,
+  "target_pages": 2,
+  "rescanned": 2,
+  "nonempty_after_rescan": 0,
+  "still_empty_after_rescan": 2,
+  "errors": 0,
+  "low_score_nonempty_lt_0_90": 0
+}

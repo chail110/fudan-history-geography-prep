@@ -1,0 +1,36 @@
+380
+中国人口史 第六卷 1910—1953年
+0.500
+0.450
+0.400
+0.350
+0.300
+生育率
+0.250
+0.200
+0.150
+0.100
+0.050
+0.000
+15—19 20—24 25—29 30—34 35-39 40—44 45—49
+h(i)
+年龄
+—φ(i)
+图8-4 中国已婚生育率与标准自然生育率分布
+为中国土地利用调查的生育资料非常糟糕，有许多漏报，调查的结
+果大大低于实际的生育水平①。撰写《中国土地利用》中《人口》一
+章的诺特斯坦因根据出生性别比认为生育统计的确有漏报，他认
+为实际的粗出生率应超过40%，而不是统计的38.3%0②。那么，
+如何估计漏报水平呢?
+初始的 P/F比方法或称为布拉斯(William Brass)方法是布
+拉斯与寇尔于1968年发明的一种对观察到的分年龄生育率水平
+进行调整的方法。它假定调整了的分年龄生育率反映了实际的生
+育率年龄模式，且与低于30岁或35岁妇女的平均活产子女数表
+示的生育水平一致，并假定这些数据是正确的。这些假定的前提
+是，25岁至29岁妇女的漏报率相对较低，因为她们能清楚地记得
+①
+Arthur Wolf. Fertility in Prerevoluationary Rural China, in Hanley and Wolf
+eds. , Family and Population in East Asian History. pp. 154 – 189.
+Notestein Frank W. Population. In Buck, John Lossing. Land Utilization in
+China : a study of 16786 farms in 168 localities, and 38256 farm families in
+twentytwo provinces in China , 1929 – 1933. p. 382.

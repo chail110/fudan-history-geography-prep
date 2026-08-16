@@ -1,0 +1,19 @@
+{
+  "device": "cuda",
+  "fallback_reason": null,
+  "gpu_name": "NVIDIA GeForce RTX 3080 Laptop GPU",
+  "gpu_total_mem_gb": 16.0,
+  "ort_version": "1.23.0",
+  "ort_available_providers": [
+    "TensorrtExecutionProvider",
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "ocr_actual_providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "engine": "RapidOCR PP-OCRv6 small ONNX",
+  "dpi": 200,
+  "note": "torch not imported in OCR worker to avoid onnxruntime CUDA slowdown"
+}
