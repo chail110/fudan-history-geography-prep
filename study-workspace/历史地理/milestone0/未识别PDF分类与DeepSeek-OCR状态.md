@@ -31,7 +31,9 @@
 
 - 已安装技能：`deepseek-harness` v0.2.0；其内容是 DeepSeek V4 API 协议封装，不是 PDF/OCR 执行器。
 - 已生成队列：`DeepSeek_Harness_OCR_队列.jsonl`，共 40 条，保留原文件路径、页数、SHA-256 和来源范围。
+- 用户已在本轮明确授权将这些扫描页发送到 DeepSeek OCR；该授权只改变本轮 OCR 的对外处理范围，不代表 API 凭据已经存在。
 - 当前环境没有 `DEEPSEEK_API_KEY`、`DEEPSEEK_OCR_API_KEY` 或 `MODELVERSE_API_KEY`，也没有已配置的 OCR endpoint。
+- 尝试安装技能发现结果中的 `skills.volces.com@deepseek-ocr` 时，源地址不是可直接克隆的 Git 仓库，安装失败；不能把它当作已安装的 OCR 执行器。
 - 因此本轮**没有向 DeepSeek 或其他外部服务上传 PDF/页面图像，也没有伪造 OCR 结果**；队列状态为 `queued_pending_deepseek_harness`。
 
 ## 机器可读产物
