@@ -27,7 +27,7 @@
 - `中国历史地理试题（简答题）.pdf`（11 页）
 - `中国历史地理试题（选择题）.pdf`（4 页）
 
-## DeepSeek Harness 状态
+## DeepSeek Harness 状态（历史记录）
 
 - 已安装技能：`deepseek-harness` v0.2.0；其内容是 DeepSeek V4 API 协议封装，不是 PDF/OCR 执行器。
 - 已生成队列：`DeepSeek_Harness_OCR_队列.jsonl`，共 40 条，保留原文件路径、页数、SHA-256 和来源范围。
@@ -35,6 +35,20 @@
 - 当前环境没有 `DEEPSEEK_API_KEY`、`DEEPSEEK_OCR_API_KEY` 或 `MODELVERSE_API_KEY`，也没有已配置的 OCR endpoint。
 - 尝试安装技能发现结果中的 `skills.volces.com@deepseek-ocr` 时，源地址不是可直接克隆的 Git 仓库，安装失败；不能把它当作已安装的 OCR 执行器。
 - 因此本轮**没有向 DeepSeek 或其他外部服务上传 PDF/页面图像，也没有伪造 OCR 结果**；队列状态为 `queued_pending_deepseek_harness`。
+
+## DSH Desktop 最新完成状态（2026-08-16）
+
+随后用户授权在 DeepSeek Harness Desktop（DSH）进程内运行本地 OCR，主队列已经完成：
+
+- 40/40 个 PDF 完成，失败 0 个；
+- 最终 `manifest.jsonl` 与 `checkpoint.json` 共记录 23,194 页；
+- OCR 运行器检测到 `CUDAExecutionProvider`，设备为 RTX 3080 Laptop；
+- 原始 DSH 输出位于 `D:\workspace\历史地理\ocr\deepseek-harness`，没有复制到活动资料根目录；
+- 交叉版《中国历史政治地理十六讲》336/336 页与既有版本逐页文本一致；
+- 135 个 DSH 空文本页已经用独立本地 RapidOCR 复扫。复扫最终无执行错误，但只有 11 页得到封面、标题或噪声级短文本，124 页仍为空；这些页面按用户确认视为空白内容，不再重复扫描；
+- 本轮没有运行 Universal ExamPrep 正式摄取、课程生成或 Engram 制卡。
+
+DSH 输出和空页复扫成果只作为本机待核验材料，不能据此直接生成正式讲义或标准答案。
 
 ## 机器可读产物
 
